@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react';
-import main from '../assets/main.png';
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView} from 'react-native';
-import data from '../data.json';
+import data from '../../data.json';
 import Card from '../components/Card';
 import Loading from '../components/Loading';
 import { StatusBar } from 'expo-status-bar';
@@ -10,6 +9,8 @@ export default function MainPage({navigation,route}) {
   const [state,setState] = useState([])
   const [cateState,setCateState] = useState([])
   const [ready,setReady] = useState(true)
+
+  const main = 'https://firebasestorage.googleapis.com/v0/b/sparta-image.appspot.com/o/lecture%2Fmain.png?alt=media&token=8e5eb78d-19ee-4359-9209-347d125b322c'
 
   useEffect(()=>{
     setTimeout(()=>{
@@ -44,7 +45,7 @@ export default function MainPage({navigation,route}) {
         <StatusBar style="black" />
         <Text style={styles.weather}>오늘의 날씨: {todayWeather + '°C ' + todayCondition} </Text>
         <TouchableOpacity style={styles.toAboutButton} onPress={()=>{navigation.navigate('AboutPage')}}><Text style={styles.middleButtonTextAll}>소개페이지</Text></TouchableOpacity>
-        <Image style={styles.mainImage} source={main}/>
+        <Image style={styles.mainImage} source={{uri:main}}/>
         <ScrollView style={styles.middleContainer} horizontal indicatorStyle={"white"}>
             <TouchableOpacity style={styles.middleButtonAll} onPress={()=>{category('전체보기')}}><Text style={styles.middleButtonTextAll}>전체보기</Text></TouchableOpacity>
             <TouchableOpacity style={styles.middleButton01} onPress={()=>{category('생활')}}><Text style={styles.middleButtonText}>생활</Text></TouchableOpacity>

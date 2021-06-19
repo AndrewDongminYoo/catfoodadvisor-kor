@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Image, Text, StyleSheet, TouchableOpacity, Alert } from 'react-native'
-import {firebase_db} from "../firebaseConfig"
+import firebase_db from "../utils/firebase"
 import Constants from 'expo-constants';
 export default function LikeCard({content,navigation,reload}){
 
