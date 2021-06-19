@@ -1,3 +1,6 @@
+import firebase from 'firebase/app'
+import "firebase/database";
+
 const firebaseConfig = {
   apiKey: "AIzaSyAP4wrhL3SbVhBWklK0V6fpevLiURej0jw",
   authDomain: "myhoneytip-yudongmin.firebaseapp.com",
@@ -9,6 +12,6 @@ const firebaseConfig = {
   measurementId: "G-94TER37FP1"
 };
 
-firebase_db = firebaseConfig.databaseURL
+firebase.initializeApp(firebaseConfig);
 
-export default firebase_db;
+export const firebase_db = firebase.database()
