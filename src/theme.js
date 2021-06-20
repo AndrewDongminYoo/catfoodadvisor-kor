@@ -1,5 +1,9 @@
 const colors = {
 
+  // colorsName from "https://htmlcolorcodes.com/color-names/";
+
+  // Red
+
   IndianRed: "#CD5C5C",
   LightCoral: "#F08080",
   Salmon: "#FA8072",
@@ -10,12 +14,25 @@ const colors = {
   FireBrick: "#B22222",
   DarkRed: "#8B0000",
 
+  // Pink
+
+  Pink: "#FFC0CB",
+  LightPink: "#FFB6C1",
+  HotPink: "#FF69B4",
+  DeepPink: "#FF1493",
+  MediumVioletRed: "#C71585",
+  PaleVioletRed: "#DB7093",
+
+  // Orange
+
   LightSalmon: "#FFA07A",
   Coral: "#FF7F50",
   Tomato: "#FF6347",
   OrangeRed: "#FF4500",
   DarkOrange: "#FF8C00",
   Orange: "#FFA500",
+
+  // Yellow
 
   Gold: "#FFD700",
   Yellow: "#FFFF00",
@@ -29,12 +46,7 @@ const colors = {
   Khaki: "#F0E68C",
   DarkKhaki: "#BDB76B",
 
-  Pink: "#FFC0CB",
-  LightPink: "#FFB6C1",
-  HotPink: "#FF69B4",
-  DeepPink: "#FF1493",
-  MediumVioletRed: "#C71585",
-  PaleVioletRed: "#DB7093",
+  // Purple
 
   Lavender: "#E6E6FA",
   Thistle: "#D8BFD8",
@@ -55,6 +67,8 @@ const colors = {
   SlateBlue: "#6A5ACD",
   DarkSlateBlue: "#483D8B",
   MediumSlateBlue: "#7B68EE",
+
+  // Green
 
   GreenYellow: "#ADFF2F",
   Chartreuse: "#7FFF00",
@@ -79,6 +93,8 @@ const colors = {
   LightSeaGreen: "#20B2AA",
   DarkCyan: "#008B8B",
   Teal: "#008080",
+
+  // Blue
 
   Aqua: "#00FFFF",
   Cyan: "#00FFFF",
@@ -106,6 +122,8 @@ const colors = {
   Navy: "#000080",
   MidnightBlue: "#191970",
 
+  // Brown
+
   Cornsilk: "#FFF8DC",
   BlanchedAlmond: "#FFEBCD",
   Bisque: "#FFE4C4",
@@ -123,6 +141,8 @@ const colors = {
   Sienna: "#A0522D",
   Brown: "#A52A2A",
   Maroon: "#800000",
+
+  // White
 
   White: "#FFFFFF",
   Snow: "#FFFAFA",
@@ -142,6 +162,8 @@ const colors = {
   LavenderBlush: "#FFF0F5",
   MistyRose: "#FFE4E1",
 
+  // Gray
+
   Gainsboro: "#DCDCDC",
   LightGray: "#D3D3D3",
   Silver: "#C0C0C0",
@@ -151,9 +173,39 @@ const colors = {
   LightSlateGray: "#778899",
   SlateGray: "#708090",
   DarkSlateGray: "#2F4F4F",
-  Black: "#000000"
-}
+  Black: "#000000"};
 
-const theme = {
-  backgroundColor: colors.Black,
+export const theme = {
+  background: colors.White,
+  text: colors.Black,
+  label: colors.Gray,
+  errorText: colors.Red,
+  headerTintColor: colors.Black,
+
+  imageBackground: colors.LightGray,
+  imageButtonBackground: colors.DarkGray,
+  imageButtonIcon: colors.White,
+
+  inputPlaceholde: colors.DimGray,
+  inputBorder: colors.LightGray,
+  inputDisabledBackground: colors.DarkGray,
+
+  buttonBackground: colors.DarkSlateGray,
+  buttonTitle: colors.White,
+  buttonUnfilledTitle: colors.DarkSlateGray,
+  buttonLogout: colors.FireBrick,
+
+  spinnerBackground: colors.Black,
+  spinnerIndicator: colors.White,
+
+  tabActiveColor: colors.Blue,
+  tabInactiveColor: colors.DimGray,
+
+  listBorder: colors.DarkGray,
+  listTime: colors.LightGray,
+  listDescription: colors.DimGray,
+  listIcon: colors.Black,
+
+  sendButtonActivate: colors.MediumBlue,
+  sendButtonInactivate: colors.DarkGray,
 }
