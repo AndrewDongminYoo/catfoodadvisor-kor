@@ -4,7 +4,7 @@ import { StyleSheet, ScrollView } from 'react-native';
 import LikeCard from '../components/LikeCard';
 import Loading from '../components/Loading';
 import Constants from 'expo-constants';
-import firebase_db from "../utils/firebase"
+import { firebase_db } from '../../firebaseConfig';
 
 
 export default function LikePage({navigation,route}) {
