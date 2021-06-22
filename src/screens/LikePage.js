@@ -1,14 +1,12 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
-import { StyleSheet, ScrollView } from 'react-native';
 import LikeCard from '../components/LikeCard';
-import Loading from '../components/Loading';
 import Constants from 'expo-constants';
-import { firebase_db } from '../../firebaseConfig';
-
+import { firebase_db } from '../utils/firebase';
+import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
 
 export default function LikePage({navigation,route}) {
-  const [ready,setReady] = useState(true)
+  const [isReady, setIsReady] = useState(false)
   const [tip, setTip] = useState([])
 
   useEffect(()=>{
@@ -21,7 +19,7 @@ export default function LikePage({navigation,route}) {
         console.log(tip)
         if (tip.length) {
           setTip(tip)
-          setReady(false)
+          setIsReady(true)
       }
     })
   },[])
@@ -34,15 +32,14 @@ export default function LikePage({navigation,route}) {
             let tip_list = Object.values(tip)
             setTip(tip_list)
         }else{
-            setReady(true)
             setTip([])
         }
 
     })
   }
 
-	return ready ? <Loading/> : (
-  <ScrollView style={styles.container}>
+	return isReady ? (
+    <ScrollView style={styles.container}>
     {
       tip.map((content,i)=>{
         return (<LikeCard content={content} key={i} navigation={navigation} reload={reload}/>)
@@ -50,7 +47,7 @@ export default function LikePage({navigation,route}) {
       )
     }
     </ScrollView>
-  );
+  ) : null;
 };
 
 const styles = StyleSheet.create({

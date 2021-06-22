@@ -1,67 +1,74 @@
 import React,{useState,useEffect} from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView} from 'react-native';
+import { FlatList, StyleSheet, Text, View, Image, TouchableOpacity, ScrollView} from 'react-native';
 import data from '../../data.json';
 import Card from '../components/Card';
-import Loading from '../components/Loading';
 import { StatusBar } from 'expo-status-bar';
 import * as Location from "expo-location";
 import axios from "axios"
-import { firebase_db } from '../../firebaseConfig';
+import { firebase_db } from '../utils/firebase';
+import AppLoading from 'expo-app-loading';
+import Weather from '../components/Weather';
 
 export default function MainPage({navigation,route}) {
 
   const main = {uri: "https://firebasestorage.googleapis.com/v0/b/sparta-image.appspot.com/o/lecture%2Fmain.png?alt=media&token=8e5eb78d-19ee-4359-9209-347d125b322c"}
-  const [state,setState] = useState([...data.tip])
-  const [cateState,setCateState] = useState([])
+  const [state, setState] = useState([...data.tip])
+  const [cateState, setCateState] = useState([...data.tip])
+  const [location, setLocation] = useState({
+    coords: {
+      longitude: 127,
+      latitude: 37.58,
+    }
+  })
   const [weather, setWeather] = useState({
     temp : 0,
-    condition : ''
+    condition : '',
+    icon: '01n'
   })
 
-  const [ready,setReady] = useState(true)
+  const [isReady,setIsReady] = useState(false)
 
   useEffect(()=>{
-    setTimeout(()=>{
-        navigation.setOptions({
-            title:'나만의 꿀팁'
-        })
-        firebase_db.ref('/tip').once('value').then((snapshot) => {
-          console.log("파이어베이스에서 데이터 가져왔습니다!!")
-          let tip = snapshot.val();
-          setState(tip)
-          setCateState(tip)
-          getLocation()
-          setReady(false)
-        });
-    },1000)
-
-
+    setTimeout(() => {
+      navigation.setOptions({
+        title:'나만의 꿀팁'
+      })
+      firebase_db.ref('/tip').once('value').then((snapshot) => {
+        console.log("tips loaded")
+        let tip = snapshot.val();
+        setState(tip)
+        setCateState(tip)
+      });
+      getLocation()
+    }, 500);
   },[])
 
   const getLocation = async () => {
     try {
-      await Location.requestPermissionsAsync();
+      await Location.requestForegroundPermissionsAsync();
       const locationData= await Location.getCurrentPositionAsync();
-      const latitude = locationData['coords']['latitude']
-      const longitude = locationData['coords']['longitude']
+      const latitude = location.coords.latitude ?? 37.58
+      const longitude = location.coords.longitude ?? 127
+      console.log(latitude, longitude)
       const API_KEY = "cfc258c75e1da2149c33daffd07a911d";
       const result = await axios.get(
         `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`
       );
-
       const temp = result.data.main.temp;
-      const condition = result.data.weather[0].main
+      const condition = result.data.weather[0].description
+      const icon = result.data.weather[0].icon
 
       console.log(temp)
       console.log(condition)
+      console.log(icon)
 
       setWeather({
-        temp,condition
+        temp,
+        condition,
+        icon
       })
-
-
     } catch (error) {
-      Alert.alert("위치를 찾을 수가 없습니다.", "앱을 껏다 켜볼까요?");
+      console.log("날씨 불러오기 실패:C");
     }
   }
 
@@ -76,14 +83,11 @@ export default function MainPage({navigation,route}) {
     }
 
 
-  return ready ? <Loading/> :  (
+  return isReady ? (
     <ScrollView style={styles.container}>
         <StatusBar style="black" />
-        {/* <Text style={styles.title}>나만의 꿀팁</Text> */}
-        <Text style={styles.weather}>오늘의 날씨: {weather.temp + '°C   ' + weather.condition} </Text>
-        <TouchableOpacity style={styles.aboutButton} onPress={()=>{navigation.navigate('AboutPage')}}>
-          <Text style={styles.aboutButtonText}>소개 페이지</Text>
-        </TouchableOpacity>
+        <Text numberOfLines={2} style={styles.weather}>Today: {weather.temp}°C <Weather icon={weather.icon} /></Text>
+        <Text numberOfLines={2} style={styles.weather}>{weather.condition}</Text>
         <Image style={styles.mainImage} source={main}/>
         <ScrollView style={styles.middleContainer} horizontal indicatorStyle={"white"}>
             <TouchableOpacity style={styles.middleButtonAll} onPress={()=>{category('전체보기')}}><Text style={styles.middleButtonTextAll}>전체보기</Text></TouchableOpacity>
@@ -93,30 +97,36 @@ export default function MainPage({navigation,route}) {
             <TouchableOpacity style={styles.middleButton04} onPress={()=>{navigation.navigate('LikePage')}}><Text style={styles.middleButtonText}>꿀팁 찜</Text></TouchableOpacity>
         </ScrollView>
         <View style={styles.cardContainer}>
-            {
-            cateState.map((content,i)=>{
-                return (<Card content={content} key={i} navigation={navigation}/>)
-            })
-            }
+          <FlatList
+            keyExtractor={(state) => state.id}
+            data={cateState}
+            windowSize={3}
+            renderItem={({ state, i }) => (
+              <Card content={state} key={i} navigation={navigation}/>
+            )}
+          />
 
         </View>
     </ScrollView>
-  );
+  ) : (
+    <AppLoading
+      startAsync={getLocation}
+      onFinish={setIsReady(true)}
+      onError={console.warn}
+    />
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#fff',
+    paddingTop: 10,
   },
-  title: {
-    fontSize: 20,
-    fontWeight: '700',
-    marginTop:50,
-    marginLeft:20
-  },
-weather:{
+  weather:{
     alignSelf:"flex-end",
-    paddingRight:20
+    paddingRight:20,
+    textTransform: "capitalize",
+    alignItems: "flex-end",
   },
   mainImage: {
     width:'90%',
@@ -135,7 +145,6 @@ weather:{
     height:50,
     padding:15,
     backgroundColor:"#20b2aa",
-    borderColor:"deeppink",
     borderRadius:15,
     margin:7
   },
@@ -144,7 +153,6 @@ weather:{
     height:50,
     padding:15,
     backgroundColor:"#fdc453",
-    borderColor:"deeppink",
     borderRadius:15,
     margin:7
   },

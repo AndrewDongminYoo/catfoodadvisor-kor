@@ -7,3 +7,4 @@ export const removeWhitespace = text => {
   const regex = /^\s+|\s+$|\s+(?=\s)/g;
   return text.replace(regex, "").trim();
 };
+

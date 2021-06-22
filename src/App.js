@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { StatusBar, Image } from 'expo-status-bar';
-import {NavigationContainer} from '@react-navigation/native';
-import StackNavigator from './navigation/StackNavigator'
-import { YellowBox } from "react-native";
-import { AppLoading } from 'expo';
-import { Asset } from 'expo-asset';
+import AppLoading from 'expo-app-loading';
+import { StatusBar } from 'expo-status-bar';
 import * as Font from 'expo-font';
+import { Asset } from 'expo-asset';
+import { theme } from './theme';
+import { Image } from 'react-native';
+import Navigation from './navigations';
+import { ProgressProvider, UserProvider } from './contexts';
 import { styled, ThemeProvider } from 'styled-components';
-import { theme } from './utils/theme';
 
 const cacheImages = images => {
   return images.map(image => {
@@ -25,8 +25,6 @@ const cacheFonts = fonts => {
 
 export default function App() {
 
-  YellowBox.ignoreWarnings([""]);
-
   const [isReady, setIsReady] = useState(false);
   const _loadAssets = async () => {
     const imageAssets = cacheImages([require('../assets/splash.png')])
@@ -36,15 +34,17 @@ export default function App() {
 
   return isReady ? (
     <ThemeProvider theme={theme}>
-      <NavigationContainer>
-        <StatusBar style="dark-content" />
-        <StackNavigator/>
-      </NavigationContainer>
+      <UserProvider>
+        <ProgressProvider>
+          <StatusBar style="dark-content" />
+          <Navigation />
+        </ProgressProvider>
+      </UserProvider>
     </ThemeProvider>
   ) : (
     <AppLoading
       startAsync={_loadAssets}
-      onFinish={setIsReady(true)}
+      onFinish={() => setIsReady(true)}
       onError={console.warn}
     />
   )
