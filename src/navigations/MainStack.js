@@ -7,6 +7,7 @@ import MainTab from './MainTab';
 const Stack = createStackNavigator();
 
 const MainStack = () => {
+
   const theme = useContext(ThemeContext);
 
   return (
