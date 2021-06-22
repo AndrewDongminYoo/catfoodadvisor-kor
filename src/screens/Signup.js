@@ -4,7 +4,7 @@ import styled from 'styled-components/native'
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { Image, Input, Button } from '../components';
 import { validateEmail, removeWhitespace } from '../utils/common';
-import { images } from '../utils/images';
+import { images } from '../utils/storage';
 import { Alert } from 'react-native';
 import { signup } from '../utils/firebase';
 import { ProgressContext } from '../contexts';

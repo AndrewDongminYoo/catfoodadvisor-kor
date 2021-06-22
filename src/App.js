@@ -6,6 +6,7 @@ import { Asset } from 'expo-asset';
 import { theme } from './theme';
 import { Image } from 'react-native';
 import Navigation from './navigations';
+import { images, fonts } from './utils/storage';
 import { ProgressProvider, UserProvider } from './contexts';
 import { styled, ThemeProvider } from 'styled-components';
 
@@ -27,8 +28,14 @@ export default function App() {
 
   const [isReady, setIsReady] = useState(false);
   const _loadAssets = async () => {
-    const imageAssets = cacheImages([require('../assets/splash.png')])
-    const fontAssets = cacheFonts([require('../assets/fonts/NanumMyeongjo-Regular.ttf')])
+    const imageAssets = cacheImages([
+      require('../assets/splash.png'),
+     ...Object.values(images)
+    ])
+    const fontAssets = cacheFonts([
+      require('../assets/fonts/NanumMyeongjo-Regular.ttf'),
+      ...Object.values(fonts)
+    ])
     await Promise.all([...imageAssets, ...fontAssets]);
   }
 

@@ -1,18 +1,23 @@
 import React from 'react';
 import {View, Image, Text, StyleSheet,TouchableOpacity} from 'react-native'
 
-export default function Card({content,navigation}){
+const Card = React.memo(
+  ({ content, onPress }) => {
+
+    const item = JSON.parse(content)
+    console.log(item)
     return(
-        <TouchableOpacity style={styles.card} onPress={()=>{navigation.navigate('DetailPage',content)}}>
-            <Image style={styles.cardImage} source={{uri:content.image}}/>
+        <TouchableOpacity style={styles.card} onPress={() => onPress({content})}>
+            <Image style={styles.cardImage} source={{uri:image}}/>
             <View style={styles.cardText}>
-                <Text style={styles.cardTitle} numberOfLines={1}>{content.title}</Text>
-                <Text style={styles.cardDesc} numberOfLines={3}>{content.desc}</Text>
-                <Text style={styles.cardDate}>{content.date}</Text>
+                <Text style={styles.cardTitle} numberOfLines={1}>{title}</Text>
+                <Text style={styles.cardDesc} numberOfLines={3}>{desc}</Text>
+                <Text style={styles.cardDate}>{date}</Text>
             </View>
         </TouchableOpacity>
     )
-}
+  }
+)
 
 
 const styles = StyleSheet.create({
@@ -48,3 +53,5 @@ const styles = StyleSheet.create({
       color:"#A6A6A6",
     }
 });
+
+export default Card;

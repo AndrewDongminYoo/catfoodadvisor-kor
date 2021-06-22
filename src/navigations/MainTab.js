@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Profile, ChannelList } from '../screens';
+import { Profile, ChannelList, MainPage } from '../screens';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { ThemeContext } from 'styled-components/native';
 import { getFocusedRouteNameFromRoute } from '@react-navigation/native';
@@ -23,7 +23,7 @@ const MainTab = ({ navigation, route }) => {
   const theme = useContext(ThemeContext);
 
   useEffect(() => {
-    const title = getFocusedRouteNameFromRoute(route) ?? 'Channels'
+    const title = getFocusedRouteNameFromRoute(route) ?? 'Main'
     navigation.setOptions({
       headerTitle: title,
       headerRight: () =>
@@ -45,6 +45,17 @@ const MainTab = ({ navigation, route }) => {
         inactiveTintColor: theme.tabInactiveColor,
       }}
     >
+      <Tab.Screen
+        name="Main"
+        component={MainPage}
+        options={{
+          tabBarIcon: ({ focused }) =>
+          TabBarIcon({
+            focused,
+            name: focused ? 'cat' : 'cat',
+          }),
+        }}
+      />
       <Tab.Screen
         name="Channels"
         component={ChannelList}

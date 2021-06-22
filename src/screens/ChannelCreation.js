@@ -25,6 +25,7 @@ const ErrorText = styled.Text`
 `;
 
 const ChannelCreation = ({ navigation }) => {
+
   const { spinner } = useContext(ProgressContext)
   const [title, setTitle] = useState('')
   const [description, setDescription] = useState('');

@@ -1,8 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { View } from 'react-native'
+import { View, Text } from 'react-native';
+import * as Location from "expo-location";
+import axios from "axios";
+import styled from 'styled-components/native';
 
-const Weather = ({ icon }) => {
+const StyledText = styled.Text`
+  align-self: flex-end;
+  padding-right: 20;
+  text-transform: capitalize;
+  align-items: flex-end;
+`;
+
+const WeatherIcon = icon => {
 
   const objWeather = {
     "01d": "weather-sunny",
@@ -28,10 +38,42 @@ const Weather = ({ icon }) => {
   return (
     <MaterialCommunityIcons
       name={objWeather[icon]}
-      size={24}
+      size={100}
       color="black"
     />
   )
+}
+
+const Weather = () => {
+
+  const [location, setLocation] = useState({});
+  const [weatherIcon, setWeatherIcon] = useState('01d')
+  const [weather, setWeather] = useState({temp: 0, description: ""})
+
+  useEffect(()=>{
+      const _getCurrentLocationWeather = async () => {
+      let { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== 'granted') {
+        setErrorMsg('Permission to access location was denied');
+        return;}
+      let location = await Location.getCurrentPositionAsync({});
+      const { latitude, longitude } = location.coords
+      console.log(latitude, longitude)
+      setLocation({ latitude, longitude });
+      const API_key = "cfc258c75e1da2149c33daffd07a911d"
+      const result = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_key}&units=metric`)
+      const response = result.data
+      const temp = response.main.temp
+      const description = response.weather[0].description
+      const icon = response.weather[0].icon
+      setWeatherIcon(icon)
+      console.log(temp, description, icon)
+      setWeather({temp, description})
+    }
+    _getCurrentLocationWeather()
+  }, [])
+
+  return <Text><WeatherIcon icon={weatherIcon}/></Text>
 }
 
 export default Weather;

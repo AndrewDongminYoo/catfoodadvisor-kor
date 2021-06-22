@@ -1,10 +1,10 @@
 import React from 'react';
 import { useEffect, useState, useRef, useContext } from 'react';
-import styled from 'styled-components/native'
+import styled, { ThemeContext } from 'styled-components/native'
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Image, Input, Button } from '../components';
-import { images } from '../utils/images';
+import { images } from '../utils/storage';
 import { validateEmail, removeWhitespace } from '../utils/common';
 import { Alert } from 'react-native';
 import { login } from '../utils/firebase';
@@ -32,6 +32,7 @@ const ErrorText = styled.Text`
 
 const Login = ({ navigation }) => {
 
+  const { theme } = useContext(ThemeContext)
   const { spinner } = useContext(ProgressContext);
   const { dispatch } = useContext(UserContext);
 
@@ -65,6 +66,7 @@ const Login = ({ navigation }) => {
       spinner.start();
       const user = await login({ email, password });
       dispatch(user);
+      console.log(email);
     } catch (err) {
       Alert.alert('Login Failed', err.message);
     } finally {
@@ -78,7 +80,10 @@ const Login = ({ navigation }) => {
       extraScrollHeight={20}
     >
       <Container insets={insets}>
-        <Image url={images.logo} imageStyle={{ borderRadius: 8 }}/>
+        <Image
+          url={images.logo}
+          imageStyle={{ borderRadius: 8 }}
+        />
         <Input
           label="Email"
           plcaeholder="Email"
