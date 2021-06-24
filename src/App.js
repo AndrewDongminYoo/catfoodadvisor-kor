@@ -8,7 +8,8 @@ import { Image } from 'react-native';
 import Navigation from './navigations';
 import { images, fonts } from './utils/storage';
 import { ProgressProvider, UserProvider } from './contexts';
-import { styled, ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components/native';
+import { NativeBaseProvider, Box } from 'native-base';
 
 const cacheImages = images => {
   return images.map(image => {
@@ -43,8 +44,10 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <UserProvider>
         <ProgressProvider>
-          <StatusBar style="dark-content" />
-          <Navigation />
+          <NativeBaseProvider>
+            <StatusBar style="dark-content" />
+            <Navigation />
+          </NativeBaseProvider>
         </ProgressProvider>
       </UserProvider>
     </ThemeProvider>

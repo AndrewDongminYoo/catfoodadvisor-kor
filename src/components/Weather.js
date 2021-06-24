@@ -5,14 +5,19 @@ import * as Location from "expo-location";
 import axios from "axios";
 import styled from 'styled-components/native';
 
+const Container = styled.View`
+
+`;
+
 const StyledText = styled.Text`
   align-self: flex-end;
   padding-right: 20;
   text-transform: capitalize;
   align-items: flex-end;
+  font-weight: 700;
 `;
 
-const WeatherIcon = icon => {
+const WeatherIcon = ({icon}) => {
 
   const objWeather = {
     "01d": "weather-sunny",
@@ -36,11 +41,13 @@ const WeatherIcon = icon => {
   }
 
   return (
-    <MaterialCommunityIcons
-      name={objWeather[icon]}
-      size={100}
-      color="black"
-    />
+    <View>
+      <MaterialCommunityIcons
+        name={objWeather[icon]}
+        size={24}
+        color="black"
+      />
+    </View>
   )
 }
 
@@ -73,7 +80,13 @@ const Weather = () => {
     _getCurrentLocationWeather()
   }, [])
 
-  return <Text><WeatherIcon icon={weatherIcon}/></Text>
+  return (
+    <View>
+      <StyledText>It's {weather.temp}℃</StyledText>
+      <StyledText>{`& ${weather.description}.`}</StyledText>
+      <StyledText><WeatherIcon icon={weatherIcon}/><WeatherIcon icon={weatherIcon}/></StyledText>
+    </View>
+  )
 }
 
 export default Weather;

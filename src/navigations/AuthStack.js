@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { ThemeContext } from 'styled-components/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Login, Signup } from '../screens';
-import { theme } from '../theme';
 
 const Stack = createStackNavigator();
 

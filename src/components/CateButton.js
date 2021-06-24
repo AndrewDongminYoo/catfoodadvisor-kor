@@ -1,28 +1,47 @@
-import React from 'react';
-import { Pressable, Text } from 'react-native'
-import { styled } from 'styled-components/native'
+import React from "react";
+import { useState, useEffect } from "react";
+import { ButtonGroup } from "react-native-elements";
+import { DB } from '../utils/firebase'
 
-const Button = styled.Pressable
+export default function CateButton ({propsFunction}) {
 
-export default CateButton = ({ cate }) => {
+  const [brandStarts, setBrandStarts] = useState('All')
+  const [selectedIndex, setSelectedIndex] = useState(13);
 
-  const category = (cate) => {
-    if(cate == "전체보기"){
-        setCateState(state)
-    }else{
-        setCateState(state.filter((d)=>{
-            return d.category == cate
-        }))
-    }
+  useEffect(()=>{
+    const unsubscribe = DB.collection('brands')
+      .orderBy('brand', 'desc')
+      .onSnapshot(snapshot => {
+        const list = [];
+        snapshot.forEach(doc => {
+          list.push(doc.data());
+        });
+        setBrandStarts(list);
+      });
+    return unsubscribe();
+  }, []);
+
+  const _handleButtonPRess = selectedIndex => {
+    const toAlphabet = {
+      0: "ㄱ", 1: "ㄴ", 2: "ㄷ", 3: "ㄹ", 4: "ㅁ", 5: "ㅂ", 6: "ㅅ",
+      7: "ㅇ", 8: "ㅈ", 9: "ㅊ", 10:"ㅋ", 11:"ㅌ", 12:"ㅍ", 13:"ㅎ",
+     }
+    setSelectedIndex(selectedIndex);
+    return propsFunction(toAlphabet[selectedIndex])
   }
 
   return (
-    <TouchableOpacity
-    style={styles.middleButtonAll}
-    onPress={() => onPress( cate ?? true)}>
-      <Text style={styles.middleButtonTextAll}>
-        { cate }
-      </Text>
-    </TouchableOpacity>
-  )
+    <ButtonGroup
+      buttonStyle={{ width: 20 }}
+      buttonContainerStyle={{}}
+      buttons={[
+        "ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ",
+        "ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ",
+      ]}
+      containerStyle={{ alignSelf: "center", color: "#FFF5EE", width: "90%" }}
+      innerBorderStyle={{ color: "#FFF5EE" }}
+      onPress={selectedIndex => _handleButtonPRess(selectedIndex)}
+      selectedButtonStyle={{ backgroundColor: "#BC8F8F" }}
+    />
+  );
 }

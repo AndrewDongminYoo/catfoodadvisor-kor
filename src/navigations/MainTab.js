@@ -8,6 +8,7 @@ import { getFocusedRouteNameFromRoute } from '@react-navigation/native';
 const Tab = createBottomTabNavigator();
 
 const TabBarIcon = ({ focused, name }) => {
+
   const theme = useContext(ThemeContext);
   return (
     <MaterialCommunityIcons
