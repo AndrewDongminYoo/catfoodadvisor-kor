@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "myhoneytip",
-    "slug": "myhoneytip",
+    "name": "catfoodadvisor-kor",
+    "slug": "catfoodadvisor-kor",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,18 +15,28 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
+    ]
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "ios": {
+    "supportsTablet": true,
+    "buildNumber": "1.0.0",
+    "bundleIdentifier": "catfoodadvisor-kor",
+    "config": {
+      "googleMobileAdsAppId": "ca-app-pub-4457293335388562~9090838375"
+    }
+  },
+  "android": {
+    "package": "catfoodadvisor-kor",
+    "versionCode": 1,
+    "config": {
+      "googleMobileAdsAppId": "ca-app-pub-4457293335388562~9693736938"
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
     }
   }
 }

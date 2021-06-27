@@ -18,7 +18,7 @@ const IconContainer = styled.View`
 
 const StyledText = styled.Text`
   align-self: flex-end;
-  padding-right: 20;
+  padding-right: 20px;
   text-transform: capitalize;
   align-items: flex-end;
   font-weight: 700;

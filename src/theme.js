@@ -190,17 +190,16 @@ export const theme = {
   inputBorder: colors.LightGray,
   inputDisabledBackground: colors.DarkGray,
 
-  buttonBackground: colors.DarkSlateGray,
+  buttonBackground: colors.LightSlateGray,
   buttonTitle: colors.White,
-  buttonUnfilledTitle: colors.DarkSlateGray,
-  buttonLogout: colors.FireBrick,
+  buttonUnfilledTitle: colors.LightSlateGray,
+  buttonLogout: colors.Tan,
 
   spinnerBackground: colors.Black,
   spinnerIndicator: colors.White,
 
-  tabActiveColor: colors.Blue,
-  tabInactiveColor: colors.DimGray,
-
+  tabActiveColor: colors.DarkTurquoise,
+  tabInactiveColor: colors.DarkSlateBlue,
   listBorder: colors.DarkGray,
   listTime: colors.LightGray,
   listDescription: colors.DimGray,

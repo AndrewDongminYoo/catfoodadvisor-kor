@@ -1166,7 +1166,7 @@
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/inter/-/inter-0.1.0.tgz#399f068437824fcbf6aa3da5fcf490dba2af85a3"
   integrity sha512-Y6GCqsUX6JwexQ2wmBkMiJBY6M2GpNQRTczzIGbBGhXWQxqGmP5awRcf0ZJV+OlLeJcKAzas/TW45ZLdpG3yzA==
 
-"@expo/config-plugins@1.0.33", "@expo/config-plugins@^1.0.18":
+"@expo/config-plugins@1.0.33", "@expo/config-plugins@^1.0.18", "@expo/config-plugins@^1.0.22":
   version "1.0.33"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-1.0.33.tgz#8ee78ea6f939f7e04606e9afa22b32139ea974a0"
   integrity sha512-YQJop0c69LKD/6ZJJto7klS7TDmzgs44TI0Z5RBqesOjYlDwNFcQk2Rl2BaA1wlAYkH+rRrhN2+WjjSyD9HiPg==
@@ -4445,6 +4445,14 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+expo-ads-admob@~10.0.4:
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/expo-ads-admob/-/expo-ads-admob-10.0.4.tgz#57fb22e9e632e279d561913128aca95ae13296c3"
+  integrity sha512-wPnVV9cfOFfM+nMfGfVDNrYNTknTpxTirO19P1i3AfFO0MefHP+fyec/YjvGsVuf8T4QyCHTs5UeIPyRWNfKMQ==
+  dependencies:
+    "@expo/config-plugins" "^1.0.18"
+    unimodules-permissions-interface "~6.1.0"
+
 expo-app-loading@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/expo-app-loading/-/expo-app-loading-1.0.3.tgz#35c2dfd71aacd9f5c53777e3ff2ac07549e766df"
@@ -4545,6 +4553,14 @@ expo-status-bar@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.0.4.tgz#d8a4c4418b5868c1606969b12bdee85b6fa7d8a4"
   integrity sha512-s7nc496D/Zn1NGiMJ5wu6HyIdXxbgGtmZZtbHm7rpbcmLdf28GmMSNHDx7M0t00BMhky7VAurTCUo+BJs8ugsw==
+
+expo-tracking-transparency@~1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/expo-tracking-transparency/-/expo-tracking-transparency-1.0.1.tgz#1b283b67f32630d2643ac3540fec935d51e32b3c"
+  integrity sha512-2DTVX+7glKBpXlM3AEyS2deuKzAhyG/zQdC+2+hrjQVJzT7yY6K2C/zogFXK8vr3LuEzhzDEBlcQKdNl+oVtNw==
+  dependencies:
+    "@expo/config-plugins" "^1.0.22"
+    unimodules-permissions-interface "~6.2.0"
 
 expo@~41.0.1:
   version "41.0.1"
@@ -8016,6 +8032,11 @@ unimodules-permissions-interface@~6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/unimodules-permissions-interface/-/unimodules-permissions-interface-6.1.0.tgz#fd5589945e3b8fc9d2c80c52521853caea85a9ca"
   integrity sha512-jeJx/y+Vn/Cp1/4su5XJ06UBul83MpXkYEqIOAb2jwaikhmj6tNwko7HpKy9OhfGfrhddCzwtedlro8xxZUk9A==
+
+unimodules-permissions-interface@~6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/unimodules-permissions-interface/-/unimodules-permissions-interface-6.2.0.tgz#6cf17d173762c9da67e38d60ffde5c4d3c858fa8"
+  integrity sha512-9qP/LTsE5eTlqS//wFXenq3Cj6d5fvOkBZrmky8fiPQkO0tsygOg1n1muMdw+3H4QezSyY6Zd06yWf2JQwyo/w==
 
 union-value@^1.0.0:
   version "1.0.1"
