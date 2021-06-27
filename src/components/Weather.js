@@ -6,7 +6,14 @@ import axios from "axios";
 import styled from 'styled-components/native';
 
 const Container = styled.View`
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  position: absolute;
+`;
 
+const IconContainer = styled.View`
+  z-index: 1;
 `;
 
 const StyledText = styled.Text`
@@ -41,13 +48,13 @@ const WeatherIcon = ({icon}) => {
   }
 
   return (
-    <View>
+    <IconContainer>
       <MaterialCommunityIcons
         name={objWeather[icon]}
         size={24}
         color="black"
       />
-    </View>
+    </IconContainer>
   )
 }
 
@@ -81,11 +88,11 @@ const Weather = () => {
   }, [])
 
   return (
-    <View>
+    <Container>
       <StyledText>It's {weather.temp}℃</StyledText>
       <StyledText>{`& ${weather.description}.`}</StyledText>
       <StyledText><WeatherIcon icon={weatherIcon}/><WeatherIcon icon={weatherIcon}/></StyledText>
-    </View>
+    </Container>
   )
 }
 

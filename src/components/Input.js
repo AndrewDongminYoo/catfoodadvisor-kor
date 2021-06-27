@@ -66,7 +66,7 @@ const Input = forwardRef(
           maxLength={maxLength}
           autoCapitalize="none"
           autoCorrect={false}
-          textContentType="none"
+          textContentType={isPassword ? "password" : "emailAddress"}
           underlineColorAndroid="transparent"
           editable={!disabled}
         />

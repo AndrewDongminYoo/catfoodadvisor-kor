@@ -1,72 +1,202 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, ScrollView,TouchableOpacity,Alert } from 'react-native';
+import { useLayoutEffect, useState, useEffect } from 'react';
+import styled from 'styled-components/native';
+import { images } from '../utils/storage'
+import { firebase_db } from '../utils/firebase';
+import AppLoading from 'expo-app-loading';
+import { Dimensions } from 'react-native';
+import { Text } from 'react-native'
 
-export default function DetailPage() {
 
+const Container = styled.ScrollView`
+    background-color: #FFEBCD;
+`;
 
-    const tip = {
-        "idx":9,
-        "category":"재테크",
-        "title":"렌탈 서비스 금액 비교해보기",
-        "image": "https://firebasestorage.googleapis.com/v0/b/sparta-image.appspot.com/o/lecture%2Frental.png?alt=media&token=97a55844-f077-4aeb-8402-e0a27221570b",
-        "desc":"요즘은 정수기, 공기 청정기, 자동차나 장난감 등 다양한 대여서비스가 활발합니다. 사는 것보다 경제적이라고 생각해 렌탈 서비스를 이용하는 분들이 늘어나고 있는데요. 다만, 이런 렌탈 서비스 이용이 하나둘 늘어나다 보면 그 금액은 겉잡을 수 없이 불어나게 됩니다. 특히, 렌탈 서비스는 빌려주는 물건의 관리비용까지 포함된 것이기에 생각만큼 저렴하지 않습니다. 직접 관리하며 사용할 수 있는 물건이 있는지 살펴보고, 렌탈 서비스 항목에서 제외해보세요. 렌탈 비용과 구매 비용, 관리 비용을 여러모로 비교해보고 고민해보는 것이 좋습니다. ",
-        "date":"2020.09.09"
-    }
+const StyledImage = styled.Image`
+    height: 250px;
+    width: 250px;
+    margin-horizontal: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+`;
 
-    const popup = () => {
-        Alert.alert("팝업!!")
-    }
-    return (
-        // ScrollView에서의 flex 숫자는 의미가 없습니다. 정확히 보여지는 화면을 몇등분 하지 않고
-        // 화면에 넣은 컨텐츠를 모두 보여주려 스크롤 기능이 존재하기 때문입니다.
-        // 여기선 내부의 컨텐츠들 영역을 결정짓기 위해서 height 값과 margin,padding 값을 적절히 잘 이용해야 합니다.
-        <ScrollView style={styles.container}>
-            <Image style={styles.image} source={{uri:tip.image}}/>
-            <View style={styles.textContainer}>
-                <Text style={styles.title}>{tip.title}</Text>
-                <Text style={styles.desc}>{tip.desc}</Text>
-                <TouchableOpacity style={styles.button} onPress={()=>popup()}><Text style={styles.buttonText}>팁 찜하기</Text></TouchableOpacity>
-            </View>
+const TextContainer = styled.View`
+    background-color: #fff;
+    margin-horizontal: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+`;
 
-        </ScrollView>
+const Title = styled.Text`
+    font-size: 24;
+    font-weight: 900;
+    color: #000;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+`;
 
+const SubTitle = styled.Text`
+    font-size: 16;
+    font-weight: 900;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+`;
+
+const Description = styled.Text`
+    margin-top: 10px;
+    color: #000;
+`;
+
+const NutrientbarContainer = styled.View`
+    height: 30px;
+    width: ${({windowWidth}) => windowWidth-40}px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-self: center;
+`;
+
+const Nutrientbar = styled.View`
+    height: 30px;
+    width: ${({ windowWidth, percent }) =>
+        (windowWidth - 60) *percent}px;
+    item-align: center;
+    border-width: 1.5px;
+    border-color: #8B4513;
+`;
+
+export default function DetailPage({navigation, route: { params }}) {
+
+    const windowWidth = Dimensions.get('window').width
+    const [isReady, setIsReady] = useState(false)
+    const [item, setItem] = useState({
+        "이름": "9CARES KITTEN",
+        "id": 2,
+        "수입사": "마쯔리코리아",
+        "브랜드": "나인케어",
+        "Manufacturer": "Perfect Companion Group",
+        "Brand": "9CARES",
+        "Formula": "KITTEN",
+        "Process": "Extrusion",
+        "무게(kg)": 6.0,
+        "가격": 50000,
+        "100g당가격": 833.3333333333334,
+        "Carbonate": 0.24999999999999997,
+        "Protein": 0.36,
+        "Fat": 0.16,
+        "조섬유": 0.04,
+        "조회분": 0.09,
+        "수분": 0.1,
+        "칼슘": 0.01,
+        "인": 0.008,
+        "열량": 3900.0,
+        "P+F+C": 388.0,
+        "P": 0.3711340206185567,
+        "F": 0.3711340206185567,
+        "C": 0.25773195876288657,
+        "Ca:P": 0.8,
+        "성분": "A",
+        "Probiotics": false,
+        "Cranberry": false,
+        "Yucca": false,
+        "meal-free": true,
+        "Grain-free": false,
+        "Oil/Fat": "Poultry fat",
+        "원료": 2,
+        "사용된원료": [
+          "dehydrated Chicken",
+          "Chicken",
+          "whole grain wheat and barley",
+          "corn protein",
+          "Animal fat preserved with mixed-tocopherols (form of vitamin E)",
+          "wheat protein",
+          "calcium",
+          "phosphorous",
+          "sodium",
+          "chloride",
+          "potassium",
+          "magnesium",
+          "manganese",
+          "copper",
+          "zinc",
+          "iron",
+          "iodine",
+          "selenium",
+          "vitamin A",
+          "vitamin B1",
+          "vitamin B2",
+          "vitamin B3",
+          "folic acid",
+          "vitamin B5",
+          "vitamin B6",
+          "vitamin B12",
+          "vitamin C",
+          "vitamin D",
+          "vitamin E",
+          "choline",
+          "pyrophosphates",
+          "beta-carotene",
+          "chicory",
+          "fish and/or vegetable oils",
+          "dehydrated fish",
+          "natural antioxidants"
+        ]
+      })
+
+    useEffect(() => {
+        console.log(params)
+        const { id } = params;
+        firebase_db
+            .ref('/data/'+String(id))
+            .once('value')
+            .then(snapshot => {
+                let item = snapshot.val();
+                setItem(item)
+                setIsReady(true)
+            })
+    }, [])
+
+    navigation.setOptions({
+        title: item['이름']
+        })
+
+    return isReady ? (
+        <Container>
+            <StyledImage source={{uri:images.sample}}/>
+            <TextContainer>
+                <Title>{item['이름']}</Title>
+                <Description>{item['브랜드']} | {item['Manufacturer']}</Description>
+                <Description>원료: {item['원료']}등급</Description>
+                <Description>성분: {item['성분']}등급</Description>
+                <Description>평균가격: {item['100g당가격'].toFixed(1)}원/100g</Description>
+            </TextContainer>
+            <TextContainer>
+                <SubTitle>사용된 원료</SubTitle>
+                <Description>{item['사용된원료'].join(', ')}</Description>
+            </TextContainer>
+            <NutrientbarContainer windowWidth={windowWidth}>
+                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#FFA07A"}} percent={item['P']}><Text style={{textAlign:'center', fontWeight:"900", lineHeight: 30, color:"#fff"}}>P: 단백질이지!!</Text></Nutrientbar>
+                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#B22222"}} percent={item['F']}><Text style={{textAlign:'center', fontWeight:"900", lineHeight: 30, color:"#fff"}}>F: 난 지방이다!</Text></Nutrientbar>
+                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#6A5ACD"}} percent={item['C']}><Text style={{textAlign:'center', fontWeight:"900", lineHeight: 30, color:"#fff"}}>C: 탄수화물헤헤</Text></Nutrientbar>
+            </NutrientbarContainer>
+            <TextContainer>
+                <Description>
+                제조사 {item['Manufacturer']}의 {item['브랜드']} 브랜드 {item['이름']} 제품은 {item['Process']} 공법으로 생산되었으며, 영양소는 단백질: {item['Protein'].toFixed(1)}%, 지방: {item['Fat'].toFixed(1)}%, 탄수화물: {item['Carbonate'].toFixed(1)}%, 조섬유: {item['조섬유'].toFixed(1)}%, 조회분: {item['조회분'].toFixed(1)}%, 수분: {item['수분'].toFixed(1)}%, 칼슘: {item['칼슘'].toFixed(2)}%, 인: {item['인'].toFixed(2)}% 으로 구성되어 있고,
+                열량은 {item['열량'].toFixed(1)}kcal/kg 이고, PFC비율은 {Math.round(item['P']*100).toFixed(1)}:{Math.round(item['F']*100).toFixed(1)}:{Math.round(item['C']*100).toFixed(1)} 이예요.
+                이 사료는 {item['수입사']}에서 샘플을 받아보실 수 있어요.
+                </Description>
+            </TextContainer>
+        </Container>
+
+    ) : (
+        <AppLoading
+            onFinish={setIsReady(true)}
+            onError={console.warn}
+        />
     )
 }
-
-const styles = StyleSheet.create({
-    container:{
-        backgroundColor:"#000"
-    },
-    image:{
-        height:400,
-        margin:10,
-        marginTop:40,
-        borderRadius:20
-    },
-    textContainer:{
-        padding:20,
-        justifyContent:'center',
-        alignItems:'center'
-    },
-    title: {
-        fontSize:20,
-        fontWeight:'700',
-        color:"#eee"
-    },
-    desc:{
-        marginTop:10,
-        color:"#eee"
-    },
-    button:{
-        width:100,
-        marginTop:20,
-        padding:10,
-        borderWidth:1,
-        borderColor:'deeppink',
-        borderRadius:7
-    },
-    buttonText:{
-        color:'#fff',
-        textAlign:'center'
-    }
-})

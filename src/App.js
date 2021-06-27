@@ -9,7 +9,8 @@ import Navigation from './navigations';
 import { images, fonts } from './utils/storage';
 import { ProgressProvider, UserProvider } from './contexts';
 import { ThemeProvider } from 'styled-components/native';
-import { NativeBaseProvider, Box } from 'native-base';
+import { NativeBaseProvider } from 'native-base';
+
 
 const cacheImages = images => {
   return images.map(image => {
@@ -39,7 +40,6 @@ export default function App() {
     ])
     await Promise.all([...imageAssets, ...fontAssets]);
   }
-
   return isReady ? (
     <ThemeProvider theme={theme}>
       <UserProvider>

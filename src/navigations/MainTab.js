@@ -58,17 +58,6 @@ const MainTab = ({ navigation, route }) => {
         }}
       />
       <Tab.Screen
-        name="Channels"
-        component={ChannelList}
-        options={{
-          tabBarIcon: ({ focused }) =>
-          TabBarIcon({
-            focused,
-            name: focused ? 'message-text' : 'message-text-outline',
-          }),
-        }}
-      />
-      <Tab.Screen
         name="Profile"
         component={Profile}
         options={{

@@ -32,13 +32,13 @@ export default function CateButton ({propsFunction}) {
 
   return (
     <ButtonGroup
-      buttonStyle={{ width: 20 }}
+      buttonStyle={{ width: 20, alignSelf:"center" }}
       buttonContainerStyle={{}}
       buttons={[
         "ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ",
         "ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ",
       ]}
-      containerStyle={{ alignSelf: "center", color: "#FFF5EE", width: "90%" }}
+      containerStyle={{ alignSelf: "center", color: "#FFF5EE", width: "95%" }}
       innerBorderStyle={{ color: "#FFF5EE" }}
       onPress={selectedIndex => _handleButtonPRess(selectedIndex)}
       selectedButtonStyle={{ backgroundColor: "#BC8F8F" }}

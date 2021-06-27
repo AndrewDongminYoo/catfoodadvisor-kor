@@ -6,6 +6,7 @@ const images = {
   icon: `${prefix}icon.png?alt=media`,
   splash: `${prefix}splash.png?alt=media`,
   main: `${prefix}main.png?alt=media`,
+  sample: `${prefix}sample.png?alt=media`,
 };
 
 const fonts = {

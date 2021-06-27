@@ -1,4 +1,4 @@
-const colors = {
+export const colors = {
 
   // colorsName from "https://htmlcolorcodes.com/color-names/";
 

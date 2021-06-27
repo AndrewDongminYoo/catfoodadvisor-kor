@@ -32,30 +32,6 @@ const uploadImage = async uri => {
 export const DB = firebase.firestore();
 export const firebase_db = firebase.database()
 
-export const createChannel = async ({ title, description }) => {
-  const newChennelRef = DB.collection('channels').doc();
-  const id = newChennelRef.id;
-  const newChannel = {
-    id,
-    title,
-    description,
-    createdAt: Date.now(),
-  };
-  await newChennelRef.set(newChannel);
-  return id;
-};
-
-export const createMessage = async ({ channelId, message }) => {
-  return await DB.collection('channels')
-    .doc(channelId)
-    .collection('messages')
-    .doc(message._id)
-    .set({
-      ...message,
-      createdAt: Date.now(),
-    })
-};
-
 export const login = async ({ email, password }) => {
   const { user } = await Auth.signInWithEmailAndPassword(email, password)
   return user;

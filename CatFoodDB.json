@@ -22,7 +22,7 @@
       "whole herring",
       "catfish"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon meal",
@@ -102,7 +102,7 @@
       "fresh quail",
       "fresh chicken giblets"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dehydrated herring",
       "raw whole herring",
@@ -175,7 +175,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "whole herring",
@@ -256,7 +256,7 @@
       "fresh turkey meat",
       "raw lamb tripe"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "raw grass-fed lamb",
       "fresh eggs",
@@ -440,7 +440,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs",
       "pollock oil"
@@ -517,7 +517,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "whole herring"
@@ -696,7 +696,7 @@
       "fresh whole silver hake",
       "freeze-dried cod liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fresh whole pacific herring",
       "fresh whole pacific pilchard",
@@ -722,7 +722,8 @@
       "pollock oil",
       "fresh whole silver hake",
       "fresh whole redstripe rockfish",
-      "whole pinto beans", "whole yellow peas",
+      "whole pinto beans",
+      "whole yellow peas",
       "cold-pressed sunflower oil",
       "sun-cured alfalfa",
       "dried brown kelp",
@@ -779,7 +780,7 @@
       "fresh bison",
       "raw lamb tripe"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fresh ranch-raised beef",
       "raw grass-fed lamb",
@@ -964,7 +965,7 @@
       "fresh turkey giblets",
       "fresh chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dehydrated herring",
       "fresh cage-free eggs",
@@ -1047,7 +1048,7 @@
       "duck",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "fish meal"
@@ -1109,7 +1110,7 @@
     "quality": [
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal"
     ],
@@ -1171,8 +1172,8 @@
     "quality": [
       "venison meal"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Venison Meal",
       "Peas",
@@ -1638,7 +1639,7 @@
       "chicken meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "dried eggs"
@@ -1872,7 +1873,7 @@
       "salmon",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon meal"
@@ -1989,7 +1990,7 @@
       "tapioca starch",
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Broth",
       "Chicken",
@@ -2033,7 +2034,7 @@
       "tapioca starch",
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Broth",
       "Chicken",
@@ -2075,7 +2076,7 @@
       "tapioca starch",
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -2981,8 +2982,8 @@
       "chicken meal",
       "organic chicken liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Organic Chicken",
       "Chicken Meal",
@@ -3034,8 +3035,8 @@
       "organic chicken liver",
       "organic chicken"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Organic Turkey",
       "Chicken Meal",
@@ -3087,8 +3088,8 @@
       "chicken meal",
       "organic chicken liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Organic Chicken",
       "Chicken Meal",
@@ -3139,7 +3140,7 @@
       "organic chicken meal",
       "organic chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -3191,7 +3192,7 @@
       "organic chicken meal",
       "organic chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -3557,7 +3558,7 @@
       "salmon meal",
       "organic turkey"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whitefish meal",
       "salmon meal"
@@ -3821,7 +3822,7 @@
       "salmon meal",
       "whitefish"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "whitefish meal",
@@ -4813,7 +4814,7 @@
       "chicken",
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -4886,7 +4887,7 @@
       "turkey",
       "duck"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "menhaden fish oil"
@@ -5087,7 +5088,7 @@
       "salmon",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "menhaden fish meal"
@@ -5159,7 +5160,7 @@
       "salmon",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon broth"
@@ -5260,7 +5261,7 @@
       "turkey",
       "duck"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "menhaden fish oil"
@@ -5430,7 +5431,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Broth",
       "Chicken",
@@ -5485,7 +5486,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Broth",
       "Chicken",
@@ -6598,7 +6599,7 @@
     "questionable": [
       "carrageenan"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Water Sufficient For Processing",
@@ -6646,7 +6647,7 @@
     "questionable": [
       "carrageenan"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Poultry",
       "Water Sufficient For Processing",
@@ -6889,7 +6890,8 @@
       "Barley Grass",
       "Dried Parsley",
       "Alfalfa Meal",
-      "Dried Kelp", "Taurine",
+      "Dried Kelp",
+      "Taurine",
       "Salt",
       "Yucca Schidigera Extract",
       "L-Carnitine",
@@ -8172,7 +8174,8 @@
     "ingredients": [
       "Chicken",
       "Liver",
-      "Meat By-products", "poultry Broth",
+      "Meat By-products",
+      "poultry Broth",
       "Fish",
       "Milk",
       "Artificial And Natural Flavors",
@@ -8814,10 +8817,10 @@
     "DM_C": 0.015151515151515154,
     "DM_fiber": 0.045454545454545456,
     "DM_ME": 238.81818181818184,
-    "quality": NaN,
-    "questionable": NaN,
-    "allergens": NaN,
-    "ingredients": NaN
+    "quality": "",
+    "questionable": "",
+    "allergens": "",
+    "ingredients": ""
   },
   {
     "name": "Fancy Feast Flaked Salmon & Ocean Whitefish Gourmet",
@@ -12560,7 +12563,8 @@
       "Potassium Iodide]",
       "Taurine",
       "Choline Chloride",
-      "Vitamins [thiamine Mononitrate (vitamin B-1)", "vitamin E Supplement",
+      "Vitamins [thiamine Mononitrate (vitamin B-1)",
+      "vitamin E Supplement",
       "Niacin (vitamin B-3)",
       "Calcium Pantothenate (vitamin B-5)",
       "Vitamin A Supplement",
@@ -13336,7 +13340,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -14468,7 +14472,8 @@
       "Vitamin B-12 Supplement",
       "Biotin (vitamin B-7)",
       "Folic Acid (vitamin B-9)",
-      "Vitamin D-3 Supplement", "]",
+      "Vitamin D-3 Supplement",
+      "]",
       "Red 3. d-6750"
     ]
   },
@@ -14506,7 +14511,7 @@
       "corn starch-modified",
       "soy flour"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Fancy Feast Tuna Florentine Garden Greens In A Delicate Sauce",
@@ -14655,7 +14660,8 @@
       "Vitamin B-12 Supplement",
       "Biotin (vitamin B-7)",
       "Folic Acid (vitamin B-9)",
-      "Vitamin D-3 Supplement", "]",
+      "Vitamin D-3 Supplement",
+      "]",
       "Red 3. D-6712"
     ]
   },
@@ -15453,7 +15459,8 @@
       "Vitamin B-12 Supplement",
       "Biotin (vitamin B-7)",
       "Folic Acid (vitamin B-9)",
-      "Vitamin D-3 Supplement", "]",
+      "Vitamin D-3 Supplement",
+      "]",
       "Red 3. c-6762"
     ]
   },
@@ -15610,7 +15617,8 @@
       "Vitamin B-12 Supplement",
       "Biotin (vitamin B-7)",
       "Folic Acid (vitamin B-9)",
-      "Vitamin D-3 Supplement", "]. c-6701"
+      "Vitamin D-3 Supplement",
+      "]. c-6701"
     ]
   },
   {
@@ -15688,7 +15696,8 @@
       "Vitamin B-12 Supplement",
       "Biotin (vitamin B-7)",
       "folic Acid (vitamin B-9)",
-      "Vitamin D-3 Supplement", "]. C-6711"
+      "Vitamin D-3 Supplement",
+      "]. C-6711"
     ]
   },
   {
@@ -15861,7 +15870,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried whole eggs",
       "herring",
@@ -15942,7 +15951,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried whole eggs",
       "herring",
@@ -16023,7 +16032,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "dehydrated lamb",
@@ -16104,7 +16113,7 @@
       "cod",
       "dehydrated cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod",
       "dehydrated cod",
@@ -16182,7 +16191,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "dehydrated herring",
@@ -16259,7 +16268,7 @@
       "herring",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod",
       "herring",
@@ -16312,7 +16321,7 @@
       "salmon",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod",
       "herring",
@@ -16364,7 +16373,7 @@
       "cod",
       "dehydrated cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod",
       "dehydrated cod",
@@ -16438,7 +16447,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "dehydrated herring",
@@ -16590,7 +16599,7 @@
       "herring",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "cod",
@@ -16644,7 +16653,7 @@
       "cod",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sea bass",
       "sardine",
@@ -16698,7 +16707,7 @@
       "herring",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sea bass",
       "cod",
@@ -16754,7 +16763,7 @@
       "herring",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "trout",
       "salmon",
@@ -16810,7 +16819,7 @@
       "herring",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "cod",
@@ -16864,7 +16873,7 @@
       "herring",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "cod",
@@ -16920,7 +16929,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried whole eggs",
       "herring",
@@ -16999,7 +17008,7 @@
       "boar",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -17050,7 +17059,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried whole eggs",
       "herring",
@@ -17127,7 +17136,7 @@
       "chicken",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -17177,7 +17186,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried whole eggs",
       "herring",
@@ -17257,7 +17266,7 @@
       "fresh herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried whole eggs",
       "fresh herring",
@@ -17334,7 +17343,7 @@
       "chicken",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -17385,7 +17394,7 @@
       "herring",
       "dehydrated herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "dehydrated lamb",
@@ -17464,7 +17473,7 @@
       "lamb",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "herring",
@@ -17514,7 +17523,7 @@
       "boar",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -17564,7 +17573,7 @@
       "chicken",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -17699,7 +17708,7 @@
       "chicken",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -17919,7 +17928,7 @@
       "chicken",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -18057,7 +18066,7 @@
       "chicken",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -18108,7 +18117,7 @@
       "lamb",
       "hydrolyzed herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "hydrolyzed herring",
@@ -18235,7 +18244,7 @@
     "quality": [
       "duck"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring oil"
     ],
@@ -18280,7 +18289,7 @@
       "herring",
       "hydrolyzed herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "hydrolyzed herring",
@@ -18400,7 +18409,7 @@
     "quality": [
       "quail"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring oil"
     ],
@@ -18515,7 +18524,7 @@
     "quality": [
       "venison"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring oil"
     ],
@@ -18560,7 +18569,7 @@
       "duck",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring",
       "eggs",
@@ -18684,7 +18693,7 @@
       "lamb",
       "hydrolyzed herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "hydrolyzed herring",
@@ -19682,7 +19691,7 @@
     "DM_C": 0.4830508474576271,
     "DM_fiber": 0.01906779661016949,
     "DM_ME": 375.16843220338984,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "rice starch"
     ],
@@ -21520,7 +21529,7 @@
     "DM_C": 0.1311475409836065,
     "DM_fiber": 0.03278688524590163,
     "DM_ME": 265.67213114754094,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "wheat gluten",
       "meat by-products",
@@ -22100,7 +22109,7 @@
     "DM_C": 0.10144927536231886,
     "DM_fiber": 0.028985507246376815,
     "DM_ME": 247.82608695652175,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "meat by-products",
       "poultry by-products",
@@ -22262,7 +22271,7 @@
     "DM_C": 0.10144927536231886,
     "DM_fiber": 0.028985507246376815,
     "DM_ME": 280.4347826086957,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "meat by-products",
       "poultry by-products",
@@ -22367,7 +22376,7 @@
     "DM_C": 0.07246376811594203,
     "DM_fiber": 0.028985507246376815,
     "DM_ME": 264.1304347826087,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "meat by-products",
       "poultry by-products",
@@ -22471,7 +22480,7 @@
     "DM_C": 0.07246376811594203,
     "DM_fiber": 0.028985507246376815,
     "DM_ME": 280.4347826086957,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "meat by-products",
       "poultry by-products",
@@ -24127,7 +24136,7 @@
     "DM_C": 0.07246376811594203,
     "DM_fiber": 0.028985507246376815,
     "DM_ME": 280.4347826086957,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "meat by-products",
       "poultry by-products",
@@ -24801,7 +24810,7 @@
     "questionable": [
       "pea flour"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Meal",
@@ -24853,7 +24862,7 @@
     "questionable": [
       "pea flour"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Guinea Fowl",
       "Turkey Meal",
@@ -24901,7 +24910,7 @@
     "questionable": [
       "pea flour"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Quail",
       "Duck Meal",
@@ -25320,7 +25329,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Boneless Chicken",
       "Water Sufficient For Processing",
@@ -25373,7 +25382,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Boneless Chicken",
       "Water Sufficient For Processing",
@@ -26084,7 +26093,7 @@
       "chicken",
       "pollock"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "pollock"
     ],
@@ -26270,7 +26279,7 @@
       "mackerel",
       "sardines"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel",
       "sardines"
@@ -26482,7 +26491,7 @@
       "mackerel",
       "sardines"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel",
       "sardines"
@@ -26587,7 +26596,7 @@
       "chicken meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "egg",
@@ -26658,7 +26667,7 @@
       "chicken meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "egg",
@@ -26729,7 +26738,7 @@
       "salmon meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "herring meal",
@@ -26879,7 +26888,7 @@
       "chicken",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel",
       "sardines"
@@ -26939,7 +26948,7 @@
       "sardines",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel",
       "sardines"
@@ -26999,7 +27008,7 @@
       "mackerel",
       "sardines"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel",
       "sardines"
@@ -27110,7 +27119,7 @@
       "chicken",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardines",
       "mackerel"
@@ -27183,7 +27192,8 @@
       "Tapioca Starch",
       "Pea Protein",
       "Tricalcium Phosphate",
-      "Guar Gum", "Potassium Chloride",
+      "Guar Gum",
+      "Potassium Chloride",
       "Salt",
       "Magnesium Sulfate",
       "Choline Chloride",
@@ -27418,7 +27428,7 @@
       "chicken liver",
       "trout"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs",
       "trout"
@@ -27481,7 +27491,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried new zealand green mussels"
     ],
@@ -27638,7 +27648,8 @@
       "Taurine",
       "Salmon Oil (preserved With Mixed Tocopherols)",
       "Magnesium Sulfate",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -27648,7 +27659,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -27707,7 +27719,8 @@
       "Vitamins",
       "Taurine",
       "Magnesium Sulfate",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -27717,7 +27730,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -27849,7 +27863,8 @@
       "Magnesium Sulfate",
       "Salmon Oil (preserved With Mixed Tocopherols)",
       "Dried Kelp",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -27859,7 +27874,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -27891,7 +27907,7 @@
       "guar gum",
       "carrageenan"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Turkey Broth",
@@ -27978,7 +27994,8 @@
       "Vitamins",
       "Carrots",
       "Taurine",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -27988,7 +28005,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -28016,7 +28034,7 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried new zealand green mussels"
     ],
@@ -28113,7 +28131,8 @@
       "Minerals",
       "Taurine",
       "Mixed Tocopherols (preservative)",
-      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)", "Vitamin E Supplement",
+      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -28123,7 +28142,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -28152,7 +28172,7 @@
       "turkey liver",
       "quail"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs"
     ],
@@ -28247,7 +28267,8 @@
       "Taurine",
       "Salmon Oil (preserved With Mixed Tocopherols)",
       "Garlic Powder",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -28257,7 +28278,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -28321,7 +28343,8 @@
       "Minerals",
       "Taurine",
       "Mixed Tocopherols (preservative)",
-      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)", "Vitamin E Supplement",
+      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -28331,7 +28354,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -28396,7 +28420,8 @@
       "Minerals",
       "Mixed Tocopherols (preservative)",
       "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
-      "L-Carnitine", "Vitamin E Supplement",
+      "L-Carnitine",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -28406,7 +28431,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -28467,7 +28493,8 @@
       "Salmon Oil (preserved With Mixed Tocopherols)",
       "Magnesium Sulfate",
       "Garlic Powder",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -28477,7 +28504,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -28505,7 +28533,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs",
       "salmon oil"
@@ -28600,7 +28628,8 @@
       "Taurine",
       "Magnesium Sulfate",
       "Garlic Powder",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -28610,7 +28639,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -28671,7 +28701,8 @@
       "Dried Kelp",
       "Salmon Oil (preserved With Mixed Tocopherols)",
       "Garlic Powder",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -28681,7 +28712,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -28741,7 +28773,8 @@
       "Dried Kelp",
       "Taurine",
       "Garlic Powder",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -28751,7 +28784,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -28811,7 +28845,8 @@
       "Magnesium Sulfate",
       "Salmon Oil (preserved With Mixed Tocopherols)",
       "Garlic Powder",
-      "Rosemary Extract", "Vitamin E Supplement",
+      "Rosemary Extract",
+      "Vitamin E Supplement",
       "Thiamine Mononitrate",
       "Niacin Supplement",
       "D-calcium Pantothenate",
@@ -28821,7 +28856,8 @@
       "Biotin",
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
-      "Folic Acid", "Iron Amino Acid Chelate",
+      "Folic Acid",
+      "Iron Amino Acid Chelate",
       "Zinc Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
@@ -28850,7 +28886,7 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whitefish",
       "fish broth",
@@ -28950,7 +28986,8 @@
       "Potassium Chloride",
       "Taurine",
       "Mixed Tocopherols (preservative)",
-      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)", "Vitamin E Supplement",
+      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -28960,7 +28997,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -29023,7 +29061,8 @@
       "Minerals",
       "Mixed Tocopherols (preservative)",
       "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
-      "L-Carnitine", "Vitamin E Supplement",
+      "L-Carnitine",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -29033,7 +29072,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -29098,7 +29138,8 @@
       "Taurine",
       "Mixed Tocopherols (preservative)",
       "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
-      "L-Carnitine", "Vitamin E Supplement",
+      "L-Carnitine",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -29175,7 +29216,8 @@
       "Taurine",
       "Mixed Tocopherols (preservative)",
       "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
-      "L-Carnitine", "Vitamin E Supplement",
+      "L-Carnitine",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -29185,7 +29227,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -29250,7 +29293,8 @@
       "Taurine",
       "Mixed Tocopherols (preservative)",
       "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
-      "L-Carnitine", "Vitamin E Supplement",
+      "L-Carnitine",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -29260,7 +29304,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -29288,7 +29333,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs"
     ],
@@ -29347,7 +29392,7 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs"
     ],
@@ -29409,7 +29454,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs"
     ],
@@ -29473,7 +29518,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs"
     ],
@@ -29571,7 +29616,8 @@
       "Minerals",
       "Taurine",
       "Mixed Tocopherols (preservative)",
-      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)", "Vitamin E Supplement",
+      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -29581,7 +29627,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -29643,7 +29690,8 @@
       "Minerals",
       "Taurine",
       "Mixed Tocopherols (preservative)",
-      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)", "Vitamin E Supplement",
+      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -29653,7 +29701,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -29716,7 +29765,8 @@
       "Potassium Chloride",
       "Taurine",
       "Mixed Tocopherols (preservative)",
-      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)", "Vitamin E Supplement",
+      "L-ascorbyl-2-polyphosphate (source Of Vitamin C)",
+      "Vitamin E Supplement",
       "Niacin Supplement",
       "Thiamine Mononitrate",
       "D-calcium Pantothenate",
@@ -29726,7 +29776,8 @@
       "Vitamin D3 Supplement",
       "Vitamin B12 Supplement",
       "Folic Acid",
-      "Biotin", "Zinc Proteinate",
+      "Biotin",
+      "Zinc Proteinate",
       "Iron Proteinate",
       "Copper Proteinate",
       "Manganese Proteinate",
@@ -29755,7 +29806,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried eggs"
     ],
@@ -29816,7 +29867,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried eggs"
     ],
@@ -29876,7 +29927,7 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried eggs"
     ],
@@ -29939,7 +29990,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried eggs"
     ],
@@ -30003,7 +30054,7 @@
       "quail",
       "pheasant"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried eggs",
       "salmon oil"
@@ -30094,7 +30145,7 @@
       "chicken",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "dried whole eggs",
@@ -30181,7 +30232,7 @@
       "whitefish",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whitefish",
       "salmon",
@@ -30247,7 +30298,7 @@
       "chicken liver",
       "trout"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "trout"
     ],
@@ -30366,7 +30417,7 @@
       "turkey",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "eggs",
@@ -30420,7 +30471,7 @@
       "salmon",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "fish broth"
@@ -30543,7 +30594,7 @@
     "DM_C": 0.28056112224448904,
     "DM_fiber": 0.0811623246492986,
     "DM_ME": 404.40480961923845,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "corn gluten meal",
@@ -31708,7 +31759,7 @@
     "quality": [
       "duck"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fish oil"
     ],
@@ -31828,7 +31879,7 @@
     "quality": [
       "venison"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fish oil"
     ],
@@ -31941,7 +31992,7 @@
     "DM_C": 0.42081949058693247,
     "DM_fiber": 0.014396456256921372,
     "DM_ME": 434.1085271317829,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "corn gluten meal",
@@ -32141,7 +32192,7 @@
       "rice",
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Water",
       "Pork Liver",
@@ -32307,7 +32358,7 @@
     "DM_C": 0.31673728813559326,
     "DM_fiber": 0.0201271186440678,
     "DM_ME": 428.39406779661016,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "corn gluten meal",
@@ -32953,7 +33004,7 @@
     "DM_C": 0.376889848812095,
     "DM_fiber": 0.017278617710583154,
     "DM_ME": 437.8023758099352,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "chicken by-product meal",
@@ -33465,7 +33516,7 @@
     "DM_C": 0.3278327832783278,
     "DM_fiber": 0.10121012101210121,
     "DM_ME": 373.6963696369637,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -33774,7 +33825,7 @@
     "DM_C": 0.36483516483516476,
     "DM_fiber": 0.14615384615384613,
     "DM_ME": 334.5230769230769,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "chicken by-product meal",
@@ -33859,7 +33910,7 @@
     "DM_C": 0.3388338833883388,
     "DM_fiber": 0.0066006600660066,
     "DM_ME": 474.3069306930693,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "chicken by-product meal",
@@ -33906,7 +33957,7 @@
     "DM_C": 0.3423423423423424,
     "DM_fiber": 0.0855855855855856,
     "DM_ME": 398.7747747747748,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -34109,7 +34160,7 @@
     "DM_C": 0.2941176470588235,
     "DM_fiber": 0.03218645948945616,
     "DM_ME": 463.8235294117647,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "corn gluten meal",
       "whole grain corn",
@@ -34274,7 +34325,7 @@
       "chicken",
       "turkey"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg white",
       "fish oil"
@@ -34384,7 +34435,7 @@
       "chicken",
       "turkey"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "egg white",
@@ -34435,7 +34486,7 @@
       "chicken",
       "turkey"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "trout",
       "egg white",
@@ -34498,7 +34549,7 @@
       "fish oil",
       "soybean oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Hill's Science Diet Hill's Science Diet Adult 11+ Healthy Cuisine Seared Tuna & Carrot Medley",
@@ -34600,7 +34651,7 @@
       "wheat gluten",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Hill's Science Diet Hill's Science Diet Adult 7+ Active Longevity Original",
@@ -34630,7 +34681,7 @@
       "corn gluten meal",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Hill's Science Diet Hill's Science Diet Adult 7+ Hairball Control",
@@ -34662,7 +34713,7 @@
       "wheat gluten",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Hill's Science Diet Hill's Science Diet Adult 7+ Healthy Cuisine Roasted Chicken & Rice Medley",
@@ -34755,7 +34806,7 @@
       "wheat gluten",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Hill's Science Diet Hill's Science Diet Adult 7+ Savory Beef Entrée",
@@ -37174,8 +37225,8 @@
       "rabbit meal",
       "rabbit"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Rabbit Meal",
       "Peas",
@@ -37217,7 +37268,7 @@
       "salmon meal",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "salmon",
@@ -37262,8 +37313,8 @@
       "turkey meal",
       "turkey"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey Meal",
       "Peas",
@@ -37310,7 +37361,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Water",
       "Rabbit",
@@ -37346,7 +37397,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Turkey Broth",
       "Turkey",
@@ -37378,8 +37429,8 @@
     "quality": [
       "duck"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Duck",
       "Duck Broth",
@@ -37416,8 +37467,8 @@
       "rabbit",
       "rabbit liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Rabbit",
       "Water",
@@ -37453,7 +37504,7 @@
     "quality": [
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon broth"
@@ -37494,8 +37545,8 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Turkey Broth",
@@ -37780,7 +37831,7 @@
       "turkey meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish meal"
     ],
@@ -37835,7 +37886,7 @@
       "white fish meal",
       "lamb meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish meal",
       "egg product",
@@ -37897,7 +37948,7 @@
       "herring meal",
       "duck meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "white fish meal",
       "herring meal"
@@ -37956,7 +38007,7 @@
       "salmon meal",
       "rabbit meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish meal",
       "white fish meal",
@@ -38017,7 +38068,7 @@
       "herring meal",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "menhaden fish meal",
@@ -38071,7 +38122,7 @@
       "beef",
       "beef liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "beef liver",
@@ -38130,7 +38181,7 @@
       "turkey",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg product",
       "menhaden fish oil"
@@ -38184,7 +38235,7 @@
       "duck",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish oil"
     ],
@@ -38236,7 +38287,7 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "lamb broth",
@@ -38293,7 +38344,7 @@
       "pork",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish oil"
     ],
@@ -38346,7 +38397,7 @@
       "salmon",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon broth",
@@ -38399,7 +38450,7 @@
       "venison",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish oil"
     ],
@@ -38452,7 +38503,7 @@
       "turkey meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish meal",
       "salmon oil"
@@ -38509,7 +38560,7 @@
       "salmon meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "menhaden fish meal",
@@ -38572,7 +38623,7 @@
       "salmon meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "menhaden fish meal",
@@ -38638,7 +38689,7 @@
       "herring meal",
       "duck meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "white fish meal",
       "herring meal",
@@ -38704,7 +38755,7 @@
       "white fish meal",
       "rabbit meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "menhaden fish meal",
@@ -38776,7 +38827,7 @@
       "herring meal",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "menhaden fish meal",
@@ -38846,7 +38897,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -38897,7 +38948,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -38949,7 +39000,7 @@
       "rabbit kidney",
       "rabbit lung"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod liver oil"
     ],
@@ -39000,7 +39051,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil",
       "cod liver oil"
@@ -39054,7 +39105,7 @@
       "turkey liver",
       "turkey heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod liver oil",
       "salmon oil"
@@ -39107,7 +39158,7 @@
       "rabbit lung",
       "rabbit kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod liver oil",
       "salmon oil"
@@ -39162,7 +39213,7 @@
       "turkey liver",
       "turkey heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod liver oil",
       "salmon oil"
@@ -39215,7 +39266,7 @@
       "rabbit lung",
       "rabbit kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "cod liver oil",
       "salmon oil"
@@ -39268,7 +39319,7 @@
       "beef liver",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef liver",
       "salmon",
@@ -39319,8 +39370,8 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Tapioca",
@@ -39365,7 +39416,7 @@
       "duck",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "chicken eggs"
     ],
@@ -39414,7 +39465,7 @@
       "turkey",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs",
       "menhaden fish oil"
@@ -39469,7 +39520,7 @@
       "pork",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish oil"
     ],
@@ -39525,7 +39576,7 @@
     "questionable": [
       "organic pea flour"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Organic chicken",
       "organic chicken broth",
@@ -39585,7 +39636,7 @@
     "questionable": [
       "organic pea flour"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Organic chicken",
       "organic chicken broth",
@@ -39641,7 +39692,7 @@
     "quality": [
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "ocean fish meal"
@@ -39848,7 +39899,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "new zealand green mussel",
       "salmon oil",
@@ -40004,7 +40055,7 @@
       "pork liver",
       "white fish"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "white fish",
       "new zealand green mussel",
@@ -40080,7 +40131,7 @@
       "duck meal",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -40513,7 +40564,7 @@
     "quality": [
       "rabbit"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil",
       "new zealand green mussel"
@@ -40579,7 +40630,7 @@
       "beef hearts",
       "beef liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "beef hearts",
@@ -40626,7 +40677,7 @@
       "chicken hearts",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg yolk",
       "egg shell"
@@ -40670,7 +40721,7 @@
       "lamb hearts",
       "lamb liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "lamb hearts",
@@ -40717,7 +40768,7 @@
       "pork hearts",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg yolk",
       "dried egg shell"
@@ -40761,7 +40812,7 @@
       "turkey hearts",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg yolk",
       "dried egg shell"
@@ -40805,7 +40856,7 @@
       "venison hearts",
       "venison liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg yolk",
       "dried egg shell"
@@ -40848,7 +40899,7 @@
       "salmon",
       "white fish"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon broth",
@@ -40985,7 +41036,7 @@
     "quality": [
       "sardine"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine",
       "sardine broth",
@@ -41051,7 +41102,7 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "clams",
       "salmon oil"
@@ -41674,7 +41725,8 @@
       "Minerals (ferrous Sulfate, Zinc Oxide, Manganous Oxide, Copper Sulfate, Calcium Iodate, Sodium Selenite)",
       "Taurine",
       "Red 40",
-      "Lactic Acid", "yellow 5",
+      "Lactic Acid",
+      "yellow 5",
       "Blue 2",
       "Rosemary Extract"
     ]
@@ -42399,7 +42451,8 @@
       "Chicken By-product Meal",
       "Corn Gluten Meal",
       "Soybean Meal",
-      "Animal Fat (preserved With Mixed Tocopherols)", "whole Wheat",
+      "Animal Fat (preserved With Mixed Tocopherols)",
+      "whole Wheat",
       "Animal Digest",
       "Phosphoric Acid",
       "Calcium Carbonate",
@@ -42562,7 +42615,8 @@
       "Choline Chloride",
       "Salt",
       "Calcium Sulfate",
-      "Vitamins (vitamin E Supplement, Niacin, Vitamin A Supplement, Thiamine Mononitrate, Riboflavin Supplement, D-calcium Pantothenate, Pyridoxine Hydrochloride, Vitamin B12 Supplement, Menadione Sodium Bisulfite Complex (source Of Vitamin K Activity), Vitamin D3 Supplement, Folic Acid, Biotin) ", "minerals (ferrous Sulfate, Zinc Oxide, Manganous Oxide, Copper Sulfate, Calcium Iodate, Sodium Selenite)",
+      "Vitamins (vitamin E Supplement, Niacin, Vitamin A Supplement, Thiamine Mononitrate, Riboflavin Supplement, D-calcium Pantothenate, Pyridoxine Hydrochloride, Vitamin B12 Supplement, Menadione Sodium Bisulfite Complex (source Of Vitamin K Activity), Vitamin D3 Supplement, Folic Acid, Biotin) ",
+      "minerals (ferrous Sulfate, Zinc Oxide, Manganous Oxide, Copper Sulfate, Calcium Iodate, Sodium Selenite)",
       "Taurine",
       "Yellow 6",
       "Dicalcium Phosphate",
@@ -43096,7 +43150,7 @@
       "deboned quail",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal"
     ],
@@ -43155,7 +43209,7 @@
       "salmon meal",
       "deboned turkey"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "salmon oil"
@@ -43212,7 +43266,7 @@
       "salmon meal",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "dried egg product",
@@ -43275,7 +43329,7 @@
       "whitefish",
       "trout"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned salmon",
       "salmon meal",
@@ -43331,7 +43385,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -43378,7 +43432,7 @@
       "salmon",
       "whitefish"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "whitefish",
@@ -44295,7 +44349,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -44365,7 +44419,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon deboned",
       "dried egg product",
@@ -44436,8 +44490,8 @@
       "deboned chicken",
       "chicken meal"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Chicken Meal",
@@ -44482,7 +44536,7 @@
       "deboned salmon",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned salmon",
       "salmon meal"
@@ -44534,8 +44588,8 @@
       "turkey meal",
       "turkey liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Deboned Turkey",
       "Turkey Meal",
@@ -44586,7 +44640,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Chicken Broth",
@@ -44601,7 +44655,8 @@
       "Taurine",
       "Salt",
       "Choline Chloride",
-      "Flaxseed Oil", "Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin, d-Calcium Pantothenate, Vitamin B12 Supplement, Vitamin A Supplement, Riboflavin Supplement, Folic Acid, Biotin, Pyridoxine Hydrochloride, Menadione Sodium Bisulfite Complex (source of Vitamin K), Vitamin D3 Supplement)",
+      "Flaxseed Oil",
+      "Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin, d-Calcium Pantothenate, Vitamin B12 Supplement, Vitamin A Supplement, Riboflavin Supplement, Folic Acid, Biotin, Pyridoxine Hydrochloride, Menadione Sodium Bisulfite Complex (source of Vitamin K), Vitamin D3 Supplement)",
       "Yucca Schidigera Extract",
       "Minerals (Zinc Amino Acid Complex, Sodium Selenite, Manganese Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Cobalt Glucoheptonate, Potassium Iodide). <br />"
     ]
@@ -44628,7 +44683,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Deboned Duck",
       "Water for Processing",
@@ -44758,7 +44813,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Deboned Turkey",
       "Turkey Broth",
@@ -44799,7 +44854,7 @@
       "deboned tuna",
       "tuna meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned tuna",
       "tuna meal"
@@ -44849,7 +44904,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -44909,7 +44964,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -44967,7 +45022,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -45190,7 +45245,7 @@
       "turkey meal",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -45250,7 +45305,7 @@
       "turkey meal",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -45845,7 +45900,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -45896,7 +45951,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned salmon",
       "dried egg product"
@@ -46419,7 +46474,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Chicken Broth",
@@ -46464,7 +46519,7 @@
       "turkey meal",
       "deboned turkey"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -46527,7 +46582,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Chicken Broth",
@@ -46572,7 +46627,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -46633,7 +46688,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "salmon oil"
@@ -47011,7 +47066,7 @@
       "chicken meal",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "salmon oil",
@@ -47198,7 +47253,7 @@
       "guar gum",
       "carrageenan"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -47291,7 +47346,7 @@
       "chicken meal",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -47338,7 +47393,7 @@
       "duck",
       "duck meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -47383,7 +47438,7 @@
       "salmon meal",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "salmon"
@@ -47429,7 +47484,7 @@
       "venison",
       "venison meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -47477,8 +47532,8 @@
       "chicken",
       "chicken meal"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Meal",
@@ -47524,7 +47579,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -47562,7 +47617,7 @@
       "salmon",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon meal"
@@ -47609,7 +47664,7 @@
       "tuna",
       "tuna meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "tuna meal"
@@ -47743,7 +47798,7 @@
       "salmon",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon meal"
@@ -47794,8 +47849,8 @@
       "turkey",
       "turkey meal"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Chickpeas",
@@ -49386,7 +49441,8 @@
       "Guar Gum",
       "Menhaden Oil (Preserved with Mixed Tocopherols)",
       "Calcium Carbonate",
-      "Minerals (Zinc Proteinate, Zinc Sulfate, Ferrous Sulfate, Iron Proteinate, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Manganese Proteinate, Calcium Iodate, Sodium Selenite)", "Thiamine Mononitrate",
+      "Minerals (Zinc Proteinate, Zinc Sulfate, Ferrous Sulfate, Iron Proteinate, Copper Sulfate, Copper Proteinate, Manganese Sulfate, Manganese Proteinate, Calcium Iodate, Sodium Selenite)",
+      "Thiamine Mononitrate",
       "Menhaden Fish Meal",
       "Salt",
       "Dicalcium Phosphate",
@@ -49650,8 +49706,8 @@
       "organic chicken",
       "organic chicken liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Organic chicken",
       "organic chicken broth",
@@ -49705,8 +49761,8 @@
       "organic turkey",
       "organic turkey liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Organic turkey",
       "organic turkey liver",
@@ -49760,7 +49816,7 @@
       "beef liver",
       "sardines"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "beef broth",
@@ -49818,7 +49874,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "herring oil",
@@ -49873,7 +49929,7 @@
       "chicken meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "spray dried lamb plasma",
@@ -49939,7 +49995,7 @@
       "salmon",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon",
@@ -49998,7 +50054,7 @@
       "rabbit",
       "pork liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "herring oil",
@@ -50053,7 +50109,7 @@
       "turkey meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "spray dried lamb plasma",
@@ -50118,7 +50174,7 @@
     "quality": [
       "sardines"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardines",
       "dried egg product",
@@ -50169,7 +50225,7 @@
     "quality": [
       "sardine meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine meal",
       "spray dried lamb plasma"
@@ -50230,7 +50286,7 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "herring oil"
@@ -50282,7 +50338,7 @@
       "turkey meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "spray dried lamb plasma",
       "menhaden fish meal"
@@ -50347,7 +50403,7 @@
       "chicken hearts",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg",
       "salmon oil"
@@ -50398,7 +50454,7 @@
       "duck heart",
       "duck liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg",
       "salmon oil"
@@ -50448,7 +50504,7 @@
       "rabbit heart",
       "rabbit liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -50495,7 +50551,7 @@
       "turkey hearts",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg",
       "salmon oil"
@@ -50545,7 +50601,7 @@
       "whitefish",
       "whitefish with bone"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whitefish",
       "whitefish with bone",
@@ -50597,7 +50653,7 @@
       "chicken hearts",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg",
       "salmon oil"
@@ -50648,7 +50704,7 @@
       "duck heart",
       "duck liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg",
       "salmon oil"
@@ -50698,7 +50754,7 @@
       "rabbit heart",
       "rabbit liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -50744,7 +50800,7 @@
       "trout",
       "trout with ground bone"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "trout",
       "trout with ground bone",
@@ -50799,7 +50855,7 @@
       "turkey hearts",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg",
       "salmon oil"
@@ -50849,7 +50905,7 @@
       "whitefish",
       "whitefish with ground bone"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whitefish",
       "whitefish with ground bone",
@@ -50977,7 +51033,7 @@
       "turkey meal",
       "deboned cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned cod"
     ],
@@ -51184,7 +51240,7 @@
       "chicken liver",
       "chicken hearts"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon oil"
@@ -51241,7 +51297,7 @@
       "duck",
       "duck liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -51296,7 +51352,7 @@
       "turkey meal",
       "deboned cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned cod"
     ],
@@ -51363,7 +51419,7 @@
       "deboned duck",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "pollock",
       "salmon meal",
@@ -51440,7 +51496,7 @@
       "turkey meal",
       "deboned cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned cod"
     ],
@@ -51506,7 +51562,7 @@
       "chicken meal",
       "deboned cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned salmon",
       "deboned cod"
@@ -51575,7 +51631,7 @@
       "deboned cod",
       "deboned duck"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish meal",
       "deboned cod"
@@ -52763,7 +52819,7 @@
       "turkey meal",
       "deboned cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned cod"
     ],
@@ -52829,7 +52885,7 @@
       "chicken meal",
       "deboned duck"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned cod"
     ],
@@ -52896,7 +52952,7 @@
       "pollock",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "pollock",
       "salmon meal",
@@ -52974,7 +53030,7 @@
       "chicken meal",
       "deboned cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned cod"
     ],
@@ -53042,7 +53098,7 @@
       "chicken meal",
       "deboned duck"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned trout"
     ],
@@ -53108,7 +53164,7 @@
       "chicken meal",
       "deboned chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -53176,7 +53232,7 @@
       "chicken hearts",
       "chicken livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -53250,7 +53306,7 @@
       "deboned cod",
       "whitefish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned cod",
       "whitefish meal",
@@ -53325,7 +53381,7 @@
       "turkey liver",
       "turkey hearts"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -53400,7 +53456,7 @@
       "chicken meal",
       "deboned cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned salmon",
       "deboned cod",
@@ -53468,7 +53524,7 @@
       "chicken meal",
       "deboned cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned cod"
     ],
@@ -53535,7 +53591,7 @@
       "deboned cod",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned salmon",
       "deboned cod",
@@ -53610,8 +53666,8 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -53724,8 +53780,8 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Turkey Broth",
@@ -55435,7 +55491,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whole eggs"
     ],
@@ -55579,7 +55635,7 @@
       "menhaden fish meal",
       "deboned salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned trout",
       "salmon meal",
@@ -57621,7 +57677,7 @@
       "chicken liver",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "wild salmon",
       "pacific herring"
@@ -58802,7 +58858,7 @@
     "quality": [
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fish meal",
       "dried egg product"
@@ -59123,7 +59179,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59181,7 +59238,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex", ""
+      "Menadione Sodium Bisulfite Complex",
+      ""
     ]
   },
   {
@@ -59207,7 +59265,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Broth",
       "Chicken",
@@ -59235,7 +59293,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59293,7 +59352,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59351,7 +59411,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59378,7 +59439,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Turkey Broth",
       "Turkey",
@@ -59396,7 +59457,8 @@
       "Tetrasodium Pyrophosphate",
       "Choline Chloride",
       "Sodium Hexametaphosphate",
-      "Taurine", "Thiamine Mononitrate (Vitamin B1)",
+      "Taurine",
+      "Thiamine Mononitrate (Vitamin B1)",
       "Vitamin E Supplement",
       "Zinc Sulfate",
       "Ferrous Sulfate",
@@ -59406,7 +59468,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59469,7 +59532,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex", ""
+      "Menadione Sodium Bisulfite Complex",
+      ""
     ]
   },
   {
@@ -59595,7 +59659,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59655,7 +59720,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59712,7 +59778,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59772,7 +59839,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59829,7 +59897,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (Source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59895,7 +59964,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -59952,7 +60022,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -60009,7 +60080,8 @@
       "Copper Sulfate",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).", ""
+      "Menadione Sodium Bisulfite Complex (source of Vitamin K Activity).",
+      ""
     ]
   },
   {
@@ -60744,7 +60816,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -60811,7 +60884,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -60882,7 +60956,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -60952,7 +61027,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -61243,7 +61319,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -61315,7 +61392,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -61382,7 +61460,8 @@
       "Potassium Iodide",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -61548,7 +61627,7 @@
       "ocean whitefish meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "ocean whitefish",
       "ocean whitefish meal",
@@ -61595,7 +61674,8 @@
       "Vitamin B12 Supplement",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -61618,7 +61698,7 @@
       "humanely raised chicken",
       "wild pacific salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "wild pacific salmon"
     ],
@@ -61656,7 +61736,8 @@
       "Dandelion Greens",
       "Choline Chloride",
       "Taurine",
-      "Turmeric", ""
+      "Turmeric",
+      ""
     ]
   },
   {
@@ -61679,7 +61760,7 @@
       "humanely raised chicken",
       "wild pacific salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "wild pacific salmon"
     ],
@@ -61718,7 +61799,8 @@
       "Selenium Yeast",
       "Choline Chloride",
       "Turmeric",
-      "Cinnamon", ""
+      "Cinnamon",
+      ""
     ]
   },
   {
@@ -61740,7 +61822,7 @@
     "quality": [
       "humanely raised beef"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "humanely raised beef",
       "beef bone broth"
@@ -61778,7 +61860,8 @@
       "Dandelion Greens",
       "Choline Chloride",
       "Taurine",
-      "Turmeric", ""
+      "Turmeric",
+      ""
     ]
   },
   {
@@ -61800,8 +61883,8 @@
     "quality": [
       "humanely raised chicken"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Humanely Raised Chicken",
       "Chicken Bone Broth",
@@ -61835,7 +61918,8 @@
       "Dandelion Greens",
       "Choline Chloride",
       "Taurine",
-      "Turmeric", ""
+      "Turmeric",
+      ""
     ]
   },
   {
@@ -61854,8 +61938,8 @@
     "DM_C": 0.24999999999999992,
     "DM_fiber": 0.11111111111111108,
     "DM_ME": 411.111111111111,
-    "quality": NaN,
-    "questionable": NaN,
+    "quality": "",
+    "questionable": "",
     "allergens": [
       "ocean herring & mackerel"
     ],
@@ -61892,7 +61976,8 @@
       "Dandelion Greens",
       "Choline Chloride",
       "Taurine",
-      "Turmeric", ""
+      "Turmeric",
+      ""
     ]
   },
   {
@@ -61917,7 +62002,7 @@
       "ocean whitefish meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "ocean whitefish meal",
       "herring meal",
@@ -61964,7 +62049,8 @@
       "Vitamin B12 Supplement",
       "Vitamin D3 Supplement",
       "Folic Acid",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -61986,8 +62072,8 @@
     "quality": [
       "humanely raised turkey"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Humanely Raised Turkey",
       "Turkey Bone Broth",
@@ -62021,7 +62107,8 @@
       "Dandelion Greens",
       "Choline Chloride",
       "Taurine",
-      "Turmeric", ""
+      "Turmeric",
+      ""
     ]
   },
   {
@@ -62043,8 +62130,8 @@
     "quality": [
       "humanely raised turkey"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Humanely Raised Turkey",
       "Turkey Bone Broth",
@@ -62075,7 +62162,8 @@
       "Selenium Yeast",
       "Dried Kelp",
       "Turmeric",
-      "Cinnamon", ""
+      "Cinnamon",
+      ""
     ]
   },
   {
@@ -62099,7 +62187,7 @@
       "ocean whitefish meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "humanely raised lamb",
       "ocean whitefish meal",
@@ -62147,7 +62235,8 @@
       "Folic Acid",
       "Tricalcium Phosphate",
       "Rosemary Extract",
-      "Coconut Oil (preserved with mixed tocopherols)", ""
+      "Coconut Oil (preserved with mixed tocopherols)",
+      ""
     ]
   },
   {
@@ -62170,7 +62259,7 @@
       "wild pacific salmon",
       "ocean whitefish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "wild pacific salmon",
       "ocean whitefish meal",
@@ -62218,7 +62307,8 @@
       "Vitamin D3 Supplement",
       "Folic Acid",
       "Taurine",
-      "Rosemary Extract", ""
+      "Rosemary Extract",
+      ""
     ]
   },
   {
@@ -62240,7 +62330,7 @@
     "quality": [
       "wild pacific salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "wild pacific salmon"
     ],
@@ -62277,7 +62367,8 @@
       "Dandelion Greens",
       "Choline Chloride",
       "Taurine",
-      "Turmeric", ""
+      "Turmeric",
+      ""
     ]
   },
   {
@@ -62299,7 +62390,7 @@
     "quality": [
       "wild pacific salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "wild pacific salmon"
     ],
@@ -62333,7 +62424,8 @@
       "Iron Amino Acid Chelate",
       "Copper Amino Acid Chelate",
       "Manganese Amino Acid Chelate",
-      "Selenium Yeast", ""
+      "Selenium Yeast",
+      ""
     ]
   },
   {
@@ -62369,7 +62461,7 @@
       "chicken kidney",
       "freeze-dried chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs",
       "whole atlantic mackerel",
@@ -62476,7 +62568,7 @@
       "freeze-dried turkey liver",
       "freeze-dried cod liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "eggs",
       "flounder",
@@ -62588,7 +62680,7 @@
       "freeze-dried lamb liver",
       "freeze-dried lamb tripe"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned beef",
       "deboned lamb",
@@ -62702,7 +62794,7 @@
       "pollock meal",
       "freeze-dried cod liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whole atlantic mackerel",
       "whole atlantic herring",
@@ -62809,7 +62901,7 @@
       "freeze-dried goat liver",
       "freeze-dried venison liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "deboned arctic char",
       "steelhead trout",
@@ -62991,7 +63083,7 @@
     "DM_C": 0.41694169416941695,
     "DM_fiber": 0.044004400440044,
     "DM_ME": 384.063806380638,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "ground brown rice"
     ],
@@ -63073,7 +63165,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "ocean fish",
       "new zealand green mussels",
@@ -63147,7 +63239,7 @@
       "chicken meal",
       "fresh chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fish meal",
       "fresh fish"
@@ -63227,7 +63319,7 @@
       "turkey meal",
       "duck meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -63306,7 +63398,7 @@
     "quality": [
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fresh fish",
       "salmon meal",
@@ -63635,7 +63727,7 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "ocean fish",
       "new zealand green mussels",
@@ -63708,7 +63800,7 @@
       "beef livers",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef hearts",
       "beef livers",
@@ -63768,7 +63860,7 @@
       "salmon",
       "chicken livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon oil",
@@ -63825,7 +63917,7 @@
       "duck gizzards",
       "duck livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -63877,7 +63969,7 @@
       "pork hearts",
       "pork livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -63927,7 +64019,7 @@
       "rabbit livers",
       "rabbit hearts"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -63980,7 +64072,7 @@
       "turkey hearts",
       "turkey livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -64031,7 +64123,7 @@
       "venison hearts",
       "venison livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -64082,7 +64174,7 @@
       "beef livers",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef hearts",
       "beef livers",
@@ -64141,7 +64233,7 @@
       "salmon",
       "chicken livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon oil",
@@ -64197,7 +64289,7 @@
       "duck gizzards",
       "duck livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -64249,7 +64341,7 @@
       "pheasant gizzards",
       "pheasant hearts"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -64299,7 +64391,7 @@
       "pork hearts",
       "pork livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -64349,7 +64441,7 @@
       "rabbit livers",
       "rabbit hearts"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -64400,7 +64492,7 @@
       "turkey hearts",
       "turkey livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -64451,7 +64543,7 @@
       "venison hearts",
       "venison livers"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "sardine oil",
       "cod liver oil"
@@ -64503,7 +64595,7 @@
       "salmon meal",
       "deboned salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "deboned salmon"
@@ -64565,7 +64657,7 @@
       "salmon meal",
       "deboned salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "deboned salmon"
@@ -64625,7 +64717,7 @@
       "salmon meal",
       "deboned salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "deboned salmon"
@@ -64687,7 +64779,7 @@
       "salmon meal",
       "deboned salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "deboned salmon"
@@ -64745,7 +64837,7 @@
       "salmon meal",
       "deboned salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "deboned salmon"
@@ -64805,7 +64897,7 @@
       "salmon meal",
       "deboned salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "deboned salmon"
@@ -64863,7 +64955,7 @@
       "beef",
       "beef liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "beef broth",
@@ -64924,8 +65016,8 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -65051,8 +65143,8 @@
       "duck",
       "duck meal"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Duck",
       "Duck Meal",
@@ -65184,8 +65276,8 @@
     "DM_C": 0.0,
     "DM_fiber": 0.029850746268656705,
     "DM_ME": 359.4626865671641,
-    "quality": NaN,
-    "questionable": NaN,
+    "quality": "",
+    "questionable": "",
     "allergens": [
       "ocean fish",
       "fish broth"
@@ -65243,7 +65335,7 @@
     "quality": [
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "fish broth"
@@ -65302,8 +65394,8 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Turkey Broth",
@@ -66519,7 +66611,7 @@
     "questionable": [
       "organic guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "organic chicken",
       "organic chicken broth",
@@ -66561,7 +66653,7 @@
     "questionable": [
       "organic guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "organic chicken",
       "organic chicken broth",
@@ -70980,7 +71072,8 @@
       "liver",
       "meat by-products",
       "water sufficient for processing",
-      "inulin", "essential nutrients and other ingredients: minerals (potassium chloride, tricalcium phosphate, salt, zinc sulfate, ferrous sulfate, manganese sulfate, copper sulfate, potassium iodide, vitamins (choline, vitamin e, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, guar gum, taurine. a466117"
+      "inulin",
+      "essential nutrients and other ingredients: minerals (potassium chloride, tricalcium phosphate, salt, zinc sulfate, ferrous sulfate, manganese sulfate, copper sulfate, potassium iodide, vitamins (choline, vitamin e, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, guar gum, taurine. a466117"
     ]
   },
   {
@@ -71017,7 +71110,8 @@
       "meat by-products",
       "water sufficient for processing",
       "ocean whitefish",
-      "inulin", "essential nutrients and other ingredients: minerals (potassium chloride, tricalcium phosphate, salt, zinc sulfate, ferrous sulfate, manganese sulfate, copper sulfate, potassium iodide, vitamins (choline, vitamin e, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, guar gum, taurine. a466217"
+      "inulin",
+      "essential nutrients and other ingredients: minerals (potassium chloride, tricalcium phosphate, salt, zinc sulfate, ferrous sulfate, manganese sulfate, copper sulfate, potassium iodide, vitamins (choline, vitamin e, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, guar gum, taurine. a466217"
     ]
   },
   {
@@ -72712,7 +72806,8 @@
       "meat by-products",
       "beef",
       "chicory root",
-      "soybean oil", "essential nutrients and other ingredients: minerals (salt, tricalcium phosphate, potassium chloride, magnesium sulfate, mono and dicalcium phosphate, zinc sulfate, ferrous sulfate, copper sulfate, manganese sulfate, potassium iodide, fish oil, artificial and natural flavors, guar gum, taurine, vitamins (vitamin e, vitamin c, choline, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, amino acids (dl-methionine, beta-carotene. b474718"
+      "soybean oil",
+      "essential nutrients and other ingredients: minerals (salt, tricalcium phosphate, potassium chloride, magnesium sulfate, mono and dicalcium phosphate, zinc sulfate, ferrous sulfate, copper sulfate, manganese sulfate, potassium iodide, fish oil, artificial and natural flavors, guar gum, taurine, vitamins (vitamin e, vitamin c, choline, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, amino acids (dl-methionine, beta-carotene. b474718"
     ]
   },
   {
@@ -72799,7 +72894,7 @@
     "DM_C": 0.1739130434782609,
     "DM_fiber": 0.04347826086956522,
     "DM_ME": 212.0289855072464,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "meat by-products",
       "soybean oil",
@@ -72810,7 +72905,7 @@
       "soybean oil",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Purina Pro Plan Prime Plus 7+ Cod & Shrimp Entrée Classic",
@@ -72852,7 +72947,8 @@
       "meat by-products",
       "shrimp",
       "soybean oil",
-      "chicory root", "essential nutrients and other ingredients: minerals (salt, potassium chloride, mono and dicalcium phosphate, magnesium sulfate, tricalcium phosphate, zinc sulfate, ferrous sulfate, copper sulfate, manganese sulfate, potassium iodide, artificial and natural flavors, guar gum, fish oil, vitamins (vitamin e, vitamin c, choline, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, taurine, beta-carotene. a475218"
+      "chicory root",
+      "essential nutrients and other ingredients: minerals (salt, potassium chloride, mono and dicalcium phosphate, magnesium sulfate, tricalcium phosphate, zinc sulfate, ferrous sulfate, copper sulfate, manganese sulfate, potassium iodide, artificial and natural flavors, guar gum, fish oil, vitamins (vitamin e, vitamin c, choline, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, taurine, beta-carotene. a475218"
     ]
   },
   {
@@ -72893,7 +72989,8 @@
       "water sufficient for processing",
       "salmon",
       "soybean oil",
-      "chicory root", "essential nutrients and other ingredients: minerals (salt, potassium chloride, mono and dicalcium phosphate, magnesium sulfate, tricalcium phosphate, zinc sulfate, ferrous sulfate, copper sulfate, manganese sulfate, potassium iodide, artificial and natural flavors, guar gum, taurine, fish oil, vitamins (vitamin e, vitamin c, choline, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, beta-carotene. b475018"
+      "chicory root",
+      "essential nutrients and other ingredients: minerals (salt, potassium chloride, mono and dicalcium phosphate, magnesium sulfate, tricalcium phosphate, zinc sulfate, ferrous sulfate, copper sulfate, manganese sulfate, potassium iodide, artificial and natural flavors, guar gum, taurine, fish oil, vitamins (vitamin e, vitamin c, choline, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, beta-carotene. b475018"
     ]
   },
   {
@@ -73003,7 +73100,8 @@
       "meat by-products",
       "soybean oil",
       "chicory root",
-      "tuna", "essential nutrients and other ingredients: minerals (salt, tricalcium phosphate, potassium chloride, magnesium sulfate, mono and dicalcium phosphate, zinc sulfate, ferrous sulfate, copper sulfate, manganese sulfate, potassium iodide, artificial and natural flavors, guar gum, taurine, fish oil, vitamins (vitamin e, vitamin c, choline, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, beta-carotene. b474818"
+      "tuna",
+      "essential nutrients and other ingredients: minerals (salt, tricalcium phosphate, potassium chloride, magnesium sulfate, mono and dicalcium phosphate, zinc sulfate, ferrous sulfate, copper sulfate, manganese sulfate, potassium iodide, artificial and natural flavors, guar gum, taurine, fish oil, vitamins (vitamin e, vitamin c, choline, vitamin b-1, vitamin b-3, vitamin b-5, vitamin a, vitamin k, vitamin b-6, vitamin b-2, vitamin b-12, vitamin b-7, folic acid, vitamin d-3, beta-carotene. b474818"
     ]
   },
   {
@@ -73022,7 +73120,7 @@
     "DM_C": 0.1449275362318841,
     "DM_fiber": 0.04347826086956522,
     "DM_ME": 212.0289855072464,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "meat by-products",
       "soybean oil",
@@ -73033,7 +73131,7 @@
       "soybean oil",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Purina Pro Plan Salmon & Brown Rice Entrée Classic",
@@ -75073,7 +75171,7 @@
     "DM_C": 0.31460674157303375,
     "DM_fiber": 0.06741573033707865,
     "DM_ME": 362.0112359550562,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "ground yellow corn",
       "poultry by-product meal",
@@ -75138,7 +75236,7 @@
     "DM_C": 0.12849162011173182,
     "DM_fiber": 0.03351955307262569,
     "DM_ME": 392.39106145251395,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "poultry by-product meal",
       "soy protein isolate",
@@ -75406,7 +75504,7 @@
     "DM_C": 0.1348314606741573,
     "DM_fiber": 0.033707865168539325,
     "DM_ME": 400.59550561797755,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "soy protein isolate",
       "poultry by-product meal",
@@ -75837,7 +75935,7 @@
     "DM_C": 0.1955307262569832,
     "DM_fiber": 0.08938547486033518,
     "DM_ME": 322.27374301675974,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "corn gluten meal",
       "wheat gluten",
@@ -76488,7 +76586,7 @@
       "chicken liver",
       "herring"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring"
     ],
@@ -76543,7 +76641,7 @@
       "duck",
       "duck liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -76564,7 +76662,8 @@
       "Niacin Supplement",
       "Vitamin E Supplement",
       "Copper Proteinate",
-      "Magnesium Proteinate", "Sodium Selenite",
+      "Magnesium Proteinate",
+      "Sodium Selenite",
       "Thiamine Mononitrate",
       "Manganese Proteinate",
       "Vitamin A Supplement",
@@ -76597,8 +76696,8 @@
     "quality": [
       "rabbit"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Rabbit",
       "Vegetable Broth",
@@ -76648,8 +76747,8 @@
     "quality": [
       "rabbit"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Rabbit",
       "Vegetable Broth",
@@ -76699,7 +76798,7 @@
       "salmon",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon"
     ],
@@ -76755,7 +76854,7 @@
       "beef",
       "beef liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "beef liver",
@@ -76900,8 +76999,8 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Liver",
@@ -77103,14 +77202,16 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
       "Coconut Oil",
       "Tapioca Starch",
       "Calcium Chloride",
-      "Potassium Chloride", "Sunflower Oil", "Salt",
+      "Potassium Chloride",
+      "Sunflower Oil",
+      "Salt",
       "Choline Chloride",
       "Taurine",
       "Dried Parsley",
@@ -77196,10 +77297,12 @@
       "Tapioca Starch",
       "Sunflower Oil",
       "Calcium Chloride",
-      "Tricalcium Phosphate", "Potassium Chloride",
+      "Tricalcium Phosphate",
+      "Potassium Chloride",
       "Choline Chloride",
       "Taurine",
-      "Salt", "Dried Parsley",
+      "Salt",
+      "Dried Parsley",
       "Minerals (Iron Amino Acid Chelate, Manganese Amino Acid Chelate, Zinc Amino Acid Chelate, Calcium Iodate, Copper Amino Acid Chelate, Magnesium Amino Acid Chelate, Sodium Selenite)",
       "Vitamins (Vitamin A Supplement, Vitamin D3 Supplement, Vitamin E Supplement, Thiamine Mononitrate, Riboflavin Supplement, Pyridoxine Hydrochloride, Vitamin B12 Supplement, Niacin Supplement, d-Calcium Pantothenate, Ascorbic Acid(source of Vitamin C), Folic Acid, Biotin)."
     ]
@@ -77242,13 +77345,24 @@
       "Turkey",
       "Chicken Liver",
       "Turkey Liver",
-      "Turkey Hearts", "Pea Starch",
+      "Turkey Hearts",
+      "Pea Starch",
       "Tapioca Starch",
       "Dried Peas",
       "Natural Chicken Flavor",
-      "Dried Egg Product", "Flaxseeds", "", "Dried Tomato Pomace", "Salt", "Choline Chloride", "Potassium Chloride",
+      "Dried Egg Product",
+      "Flaxseeds",
+      "",
+      "Dried Tomato Pomace",
+      "Salt",
+      "Choline Chloride",
+      "Potassium Chloride",
       "Vitamins (Vitamin E Supplement,Niacin Supplement,d-calcium Pantothenate,Vitamin A Acetate,Thiamine Mononitrate,Pyridoxine Hydrochloride,Riboflavin Supplement,Vitamin D3 Supplement,Biotin,Vitamin B12 Supplement,Folic Acid)",
-      "Minerals (Ferrous Sulfate,Zinc Oxide,Calcium Carbonate,Manganous Oxide,Copper Sulfate,Iron Amino Acid Chelate,Manganese Amino Acid Chelate,Zinc Amino Acid Chelate,Copper Amino Acid Chelate,Sodium Selenite,Cobalt Carbonate,Calcium Iodate)", "Mixed Tocopherols (Preservative)", "Taurine", "Citric Acid (Preservative)", "Rosemary Extract"
+      "Minerals (Ferrous Sulfate,Zinc Oxide,Calcium Carbonate,Manganous Oxide,Copper Sulfate,Iron Amino Acid Chelate,Manganese Amino Acid Chelate,Zinc Amino Acid Chelate,Copper Amino Acid Chelate,Sodium Selenite,Cobalt Carbonate,Calcium Iodate)",
+      "Mixed Tocopherols (Preservative)",
+      "Taurine",
+      "Citric Acid (Preservative)",
+      "Rosemary Extract"
     ]
   },
   {
@@ -77270,7 +77384,7 @@
     "quality": [
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "fish broth"
@@ -77342,9 +77456,12 @@
       "Tuna Oil",
       "Tapioca Starch",
       "Sunflower Oil",
-      "Potassium Chloride", "Tricalcium Phosphate", "Salt",
+      "Potassium Chloride",
+      "Tricalcium Phosphate",
+      "Salt",
       "Calcium Chloride",
-      "Dried Parsley", "Choline Chloride",
+      "Dried Parsley",
+      "Choline Chloride",
       "Taurine",
       "Minerals (Iron Amino Acid Chelate, Manganese Amino Acid Chelate, Zinc Amino Acid Chelate, Calcium Iodate, Copper Amino Acid Chelate, Magnesium Amino Acid Chelate, Sodium Selenite)",
       "Vitamins (Vitamin A Supplement, Vitamin D3 Supplement, Vitamin E Supplement, Thiamine Mononitrate, Riboflavin Supplement, Pyridoxine Hydrochloride, Vitamin B12 Supplement, Niacin Supplement, d-Calcium Pantothenate, Ascorbic Acid(source of Vitamin C), Folic Acid, Biotin)"
@@ -77389,10 +77506,23 @@
       "(Source Of Glucosamine And Chondroitin Sulfate)",
       "Whitefish",
       "Turkey",
-      "Turkey Liver", "Pea Starch", "Dried Peas",
-      "Tapioca Starch", "Dried Egg Product", "Flaxseeds", "Natural Chicken Flavor", "Dried Tomato Pomace", "Salt", "Choline Chloride", "Potassium Chloride",
+      "Turkey Liver",
+      "Pea Starch",
+      "Dried Peas",
+      "Tapioca Starch",
+      "Dried Egg Product",
+      "Flaxseeds",
+      "Natural Chicken Flavor",
+      "Dried Tomato Pomace",
+      "Salt",
+      "Choline Chloride",
+      "Potassium Chloride",
       "Vitamins (Vitamin E Supplement,Niacin Supplement,D-calcium Pantothenate,Vitamin A Acetate,Thiamine Mononitrate,Pyridoxine Hydrochloride,Riboflavin Supplement,Vitamin D3 Supplement,Biotin,Vitamin B12 Supplement,Folic Acid)",
-      "Minerals (Ferrous Sulfate,Zinc Oxide,Calcium Carbonate,Manganous Oxide,Copper Sulfate,Iron Amino Acid Chelate,Manganese Amino Acid Chelate,Zinc Amino Acid Chelate,Copper Amino Acid Chelate,Sodium Selenite,Cobalt Carbonate,Calcium Iodate)", "Mixed Tocopherols (Preservative)", "Taurine", "Citric Acid (Preservative)", "Rosemary Extract"
+      "Minerals (Ferrous Sulfate,Zinc Oxide,Calcium Carbonate,Manganous Oxide,Copper Sulfate,Iron Amino Acid Chelate,Manganese Amino Acid Chelate,Zinc Amino Acid Chelate,Copper Amino Acid Chelate,Sodium Selenite,Cobalt Carbonate,Calcium Iodate)",
+      "Mixed Tocopherols (Preservative)",
+      "Taurine",
+      "Citric Acid (Preservative)",
+      "Rosemary Extract"
     ]
   },
   {
@@ -77508,8 +77638,8 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Turkey Liver",
@@ -77723,7 +77853,7 @@
       "soy protein isolate",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Royal Canin Appetite Control Spayed / Neutered",
@@ -77842,7 +77972,7 @@
       "egg product",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Royal Canin Aroma Selective",
@@ -78099,7 +78229,7 @@
     "DM_C": 0.415217391304348,
     "DM_fiber": 0.0739130434782609,
     "DM_ME": 421.7391304347826,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "corn",
       "chicken by-product meal",
@@ -78184,7 +78314,7 @@
     "DM_C": 0.3543478260869564,
     "DM_fiber": 0.05869565217391302,
     "DM_ME": 416.30434782608694,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "wheat gluten",
@@ -78267,7 +78397,7 @@
     "DM_C": 0.41304347826086973,
     "DM_fiber": 0.07608695652173916,
     "DM_ME": 421.7391304347826,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -78439,7 +78569,7 @@
     "DM_C": 0.41304347826086946,
     "DM_fiber": 0.0652173913043478,
     "DM_ME": 435.8695652173913,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -78604,7 +78734,7 @@
     "DM_C": 0.38394793926247284,
     "DM_fiber": 0.052060737527114966,
     "DM_ME": 433.62039045553144,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -78686,7 +78816,7 @@
     "DM_C": 0.44021739130434784,
     "DM_fiber": 0.05978260869565217,
     "DM_ME": 416.30434782608694,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "corn",
@@ -78775,7 +78905,7 @@
     "DM_C": 0.38586956521739124,
     "DM_fiber": 0.03804347826086957,
     "DM_ME": 434.78260869565213,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "wheat gluten",
@@ -78859,7 +78989,7 @@
     "DM_C": 0.4673913043478259,
     "DM_fiber": 0.0652173913043478,
     "DM_ME": 376.0869565217391,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "corn",
@@ -78942,7 +79072,7 @@
     "DM_C": 0.48152173913043494,
     "DM_fiber": 0.08369565217391306,
     "DM_ME": 391.304347826087,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -79027,7 +79157,7 @@
     "DM_C": 0.39347826086956517,
     "DM_fiber": 0.041304347826086954,
     "DM_ME": 439.1304347826087,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "corn",
@@ -79173,7 +79303,7 @@
     "DM_C": 0.46739130434782605,
     "DM_fiber": 0.08695652173913043,
     "DM_ME": 417.39130434782606,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "hydrolyzed soy protein"
@@ -79242,7 +79372,7 @@
     "DM_C": 0.48043478260869543,
     "DM_fiber": 0.07391304347826085,
     "DM_ME": 372.82608695652175,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "corn gluten meal",
@@ -79411,7 +79541,7 @@
     "DM_C": 0.49565217391304345,
     "DM_fiber": 0.08043478260869565,
     "DM_ME": 397.82608695652175,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "hydrolyzed soy protein"
@@ -79481,7 +79611,7 @@
     "DM_C": 0.41195652173913044,
     "DM_fiber": 0.1641304347826087,
     "DM_ME": 330.4347826086956,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "wheat gluten",
@@ -79559,7 +79689,7 @@
     "DM_C": 0.5303030303030304,
     "DM_fiber": 0.06926406926406926,
     "DM_ME": 405.2943722943723,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "corn",
@@ -80306,7 +80436,7 @@
       "fish oil",
       "egg product"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Royal Canin Indoor Adult",
@@ -80762,7 +80892,7 @@
     "DM_C": 0.39999999999999997,
     "DM_fiber": 0.04565217391304348,
     "DM_ME": 417.39130434782606,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brown rice",
@@ -81092,7 +81222,7 @@
     "DM_C": 0.36304347826086947,
     "DM_fiber": 0.03913043478260868,
     "DM_ME": 460.8695652173913,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -81410,7 +81540,7 @@
     "DM_C": 0.44021739130434784,
     "DM_fiber": 0.05978260869565217,
     "DM_ME": 416.30434782608694,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "corn",
@@ -81951,7 +82081,7 @@
     "DM_C": 0.44999999999999996,
     "DM_fiber": 0.0608695652173913,
     "DM_ME": 404.3478260869565,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "corn",
@@ -82024,7 +82154,7 @@
     "DM_C": 0.515217391304348,
     "DM_fiber": 0.07173913043478264,
     "DM_ME": 390.21739130434787,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "corn",
@@ -82107,7 +82237,7 @@
     "DM_C": 0.4315217391304348,
     "DM_fiber": 0.12282608695652174,
     "DM_ME": 350.0,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "corn",
@@ -82174,7 +82304,7 @@
     "DM_C": 0.4206521739130435,
     "DM_fiber": 0.05760869565217391,
     "DM_ME": 372.82608695652175,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -82252,7 +82382,7 @@
     "DM_C": 0.4923913043478261,
     "DM_fiber": 0.05108695652173913,
     "DM_ME": 403.2608695652174,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "chicken by-product meal",
@@ -82333,7 +82463,7 @@
     "DM_C": 0.38043478260869573,
     "DM_fiber": 0.07608695652173916,
     "DM_ME": 432.60869565217394,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brown rice",
@@ -82489,7 +82619,7 @@
     "DM_C": 0.4021739130434783,
     "DM_fiber": 0.07608695652173916,
     "DM_ME": 405.4347826086957,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "chicken by-product meal",
@@ -82638,7 +82768,7 @@
     "DM_C": 0.49347826086956503,
     "DM_fiber": 0.06086956521739128,
     "DM_ME": 426.0869565217391,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "hydrolyzed soy protein"
@@ -82708,7 +82838,7 @@
     "DM_C": 0.39891304347826084,
     "DM_fiber": 0.17717391304347826,
     "DM_ME": 326.0869565217391,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "wheat",
@@ -82783,7 +82913,7 @@
     "DM_C": 0.4923913043478261,
     "DM_fiber": 0.06195652173913043,
     "DM_ME": 388.04347826086956,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "duck by-product meal",
       "hydrolyzed soy protein"
@@ -82792,7 +82922,7 @@
       "hydrolyzed soy protein",
       "fish oil"
     ],
-    "ingredients": NaN
+    "ingredients": ""
   },
   {
     "name": "Royal Canin Veterinary Diet Feline Selected Protein Adult PR",
@@ -83045,7 +83175,7 @@
     "DM_C": 0.44198895027624296,
     "DM_fiber": 0.04972375690607733,
     "DM_ME": 407.7348066298342,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -83121,7 +83251,7 @@
     "DM_C": 0.45326086956521755,
     "DM_fiber": 0.10108695652173916,
     "DM_ME": 363.0434782608696,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "chicken by-product meal",
       "brewers rice",
@@ -83278,7 +83408,7 @@
     "DM_C": 0.47826086956521735,
     "DM_fiber": 0.09782608695652173,
     "DM_ME": 365.2173913043478,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brewers rice",
       "corn",
@@ -83439,7 +83569,7 @@
       "chicken",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "whole egg",
@@ -83613,7 +83743,7 @@
       "pollock meal",
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "pollock",
       "pollock meal",
@@ -84040,7 +84170,7 @@
       "turkey meal",
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "ocean fish meal",
       "dried eggs",
@@ -84664,7 +84794,7 @@
       "chicken meal",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "ocean fish meal",
       "dried eggs",
@@ -84847,7 +84977,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "ocean fish meal",
       "dried eggs",
@@ -84939,7 +85069,7 @@
       "salmon meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon meal",
@@ -85031,7 +85161,7 @@
       "turkey meal",
       "pollock meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "pollock meal",
       "dried eggs",
@@ -85699,7 +85829,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden herring meal",
       "ocean fish meal",
@@ -86143,7 +86273,7 @@
       "chicken meal",
       "pollock meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "pollock meal",
       "dried eggs",
@@ -86236,8 +86366,8 @@
       "rabbit with ground bone",
       "rabbit liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Rabbit with ground bone",
       "rabbit liver",
@@ -86291,8 +86421,8 @@
     "quality": [
       "rabbit with ground bone"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Rabbit With Ground Bone",
       "Olive Oil",
@@ -86344,8 +86474,8 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "chicken bone broth",
@@ -86385,8 +86515,8 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "chicken bone broth",
@@ -86424,8 +86554,8 @@
     "quality": [
       "turkey"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "turkey bone broth",
@@ -86465,10 +86595,11 @@
       "chicken liver",
       "chicken gizzard"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
-      "Chicken (Ground With Bone)", "Chicken Liver",
+      "Chicken (Ground With Bone)",
+      "Chicken Liver",
       "Chicken Gizzard",
       "Pumpkin Seed",
       "Potassium Chloride",
@@ -86520,8 +86651,8 @@
       "chicken liver",
       "chicken gizzard"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken (Ground With Bone)",
       "Chicken Liver",
@@ -86578,7 +86709,7 @@
       "chicken",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon"
     ],
@@ -86622,7 +86753,7 @@
       "chicken heart",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon"
     ],
@@ -86667,8 +86798,8 @@
       "turkey liver",
       "turkey gizzard"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Duck (Ground With Bone)",
       "Turkey",
@@ -86729,8 +86860,8 @@
       "turkey liver",
       "turkey gizzard"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Duck (Ground With Bone)",
       "Turkey",
@@ -86788,8 +86919,8 @@
       "chicken liver",
       "chicken gizzard"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "chicken meal",
@@ -86857,7 +86988,7 @@
       "salmon meal",
       "cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "ocean fish meal",
@@ -86932,7 +87063,7 @@
       "salmon",
       "cod"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "cod",
@@ -86993,8 +87124,8 @@
       "turkey liver",
       "turkey gizzard"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey (Ground With Bone)",
       "Turkey Liver",
@@ -87053,7 +87184,7 @@
       "chicken liver",
       "chicken gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon"
     ],
@@ -87113,7 +87244,7 @@
     "quality": [
       "beef"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "salmon oil"
@@ -87175,7 +87306,7 @@
     "quality": [
       "trout"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "trout",
       "ocean fish meal",
@@ -87324,7 +87455,7 @@
       "turkey meal",
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -87396,7 +87527,7 @@
     "quality": [
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "smoked salmon",
       "ocean fish meal"
@@ -87546,7 +87677,7 @@
     "quality": [
       "turkey"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -88392,7 +88523,7 @@
       "chicken heart",
       "beef"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "tuna oil"
@@ -88453,7 +88584,7 @@
       "chicken heart",
       "duck"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna oil"
     ],
@@ -88513,7 +88644,7 @@
       "chicken heart",
       "lamb"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "tuna oil"
@@ -88574,7 +88705,7 @@
       "chicken heart",
       "pork"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna oil"
     ],
@@ -88633,7 +88764,7 @@
       "chicken gizzard",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "quail egg",
       "tuna oil"
@@ -88693,7 +88824,7 @@
       "chicken gizzard",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna oil"
     ],
@@ -88752,7 +88883,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Duck",
       "Water Sufficient For Processing",
@@ -88807,7 +88938,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Rabbit",
       "Water Sufficient For Processing",
@@ -88914,8 +89045,8 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -88968,7 +89099,7 @@
       "chicken",
       "beef"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef"
     ],
@@ -89026,8 +89157,8 @@
       "chicken",
       "duck"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -89081,7 +89212,7 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "egg"
     ],
@@ -89139,7 +89270,7 @@
       "chicken",
       "lamb"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb"
     ],
@@ -89196,7 +89327,7 @@
     "quality": [
       "tuna"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "tuna broth"
@@ -89248,7 +89379,7 @@
     "quality": [
       "tuna"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "tuna broth"
@@ -89302,7 +89433,7 @@
       "tuna",
       "ocean whitefish"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "tuna broth",
@@ -89357,7 +89488,7 @@
       "tuna",
       "shrimp"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "tuna broth",
@@ -89412,7 +89543,7 @@
       "tuna",
       "tilapia"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "tuna broth",
@@ -89665,7 +89796,7 @@
       "chicken meal",
       "dehydrated chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg product",
       "natural salmon flavor",
@@ -89807,7 +89938,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "natural salmon flavor",
       "salmon oil"
@@ -89874,7 +90005,7 @@
       "tuna",
       "crab"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "fish broth",
@@ -89929,7 +90060,7 @@
     "quality": [
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon broth"
@@ -89984,7 +90115,7 @@
     "quality": [
       "tuna"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "fish broth"
@@ -90036,7 +90167,7 @@
       "tuna",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "fish oil"
@@ -90089,7 +90220,7 @@
       "tilapia",
       "mackerel"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tilapia",
       "tilapia broth",
@@ -90148,7 +90279,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg",
       "fish oil"
@@ -90206,7 +90337,7 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg"
     ],
@@ -90260,7 +90391,7 @@
     "quality": [
       "tuna"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "fish broth",
@@ -90371,7 +90502,7 @@
     "quality": [
       "tuna"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "fish broth",
@@ -90426,7 +90557,7 @@
       "salmon",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon"
     ],
@@ -90481,7 +90612,7 @@
     "quality": [
       "mackerel"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel"
     ],
@@ -90538,7 +90669,7 @@
       "tuna",
       "mackerel"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna",
       "mackerel",
@@ -90593,8 +90724,8 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -90645,8 +90776,8 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Bone Broth",
@@ -90687,7 +90818,7 @@
     "quality": [
       "lamb"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb"
     ],
@@ -90743,8 +90874,8 @@
     "quality": [
       "quail"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Quail",
       "Turkey Bone Broth",
@@ -90797,8 +90928,8 @@
       "turkey",
       "turkey liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Turkey Bone Broth",
@@ -90839,8 +90970,8 @@
     "quality": [
       "duck"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Duck",
       "Turkey Bone Broth",
@@ -90894,7 +91025,7 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg",
       "fish oil"
@@ -90953,7 +91084,7 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg",
       "fish oil"
@@ -91013,7 +91144,7 @@
       "chicken",
       "duck liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg",
       "tuna oil"
@@ -91073,7 +91204,7 @@
       "chicken",
       "turkey"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg",
       "tuna oil"
@@ -91136,7 +91267,7 @@
       "salmon",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon broth",
       "salmon",
@@ -91252,7 +91383,7 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg"
     ],
@@ -91307,7 +91438,7 @@
       "chicken",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "dried egg"
@@ -91364,7 +91495,7 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "dried egg"
     ],
@@ -91420,7 +91551,7 @@
       "chicken",
       "chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon broth",
       "salmon",
@@ -91482,7 +91613,7 @@
     "quality": [
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon broth",
@@ -91540,7 +91671,7 @@
       "salmon",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon broth",
       "salmon",
@@ -91604,7 +91735,7 @@
       "tuna",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna broth",
       "tuna",
@@ -91663,7 +91794,7 @@
       "tuna",
       "mackerel"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "tuna broth",
       "tuna",
@@ -91726,7 +91857,7 @@
       "whitefish meal",
       "dried chicken liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "whitefish meal",
@@ -91779,7 +91910,7 @@
       "chicken _x0003_liver",
       "chicken gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "chicken egg",
       "raw goat's milk",
@@ -91822,7 +91953,7 @@
       "chicken _x0003_liver",
       "chicken gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "chicken egg",
       "raw goat's milk",
@@ -91865,7 +91996,7 @@
       "duck liver",
       "duck gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "duck egg",
       "raw goat's milk",
@@ -91909,7 +92040,7 @@
       "duck liver",
       "duck gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "duck egg",
       "raw goat's milk",
@@ -91954,7 +92085,7 @@
       "rabbit kidney",
       "rabbit trachea"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "raw goat's milk",
       "herring oil"
@@ -91997,7 +92128,7 @@
       "rabbit kidney",
       "rabbit trachea"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "raw goat's milk",
       "herring oil"
@@ -92038,7 +92169,7 @@
       "turkey liver",
       "turkey heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "goaté셲 milk",
       "herring oil mixed tocopherolsd-alpha tocopherol"
@@ -92074,7 +92205,7 @@
       "turkey liver",
       "turkey gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "raw goat's milk",
       "turkey egg",
@@ -92116,7 +92247,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "goat's milk",
       "herring oil",
@@ -92157,7 +92288,7 @@
       "duck gizzard",
       "duck heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "goat's milk",
       "herring oil"
@@ -92195,7 +92326,7 @@
       "rabbit heart",
       "rabbit kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "goat's milk",
       "herring oil"
@@ -92232,7 +92363,7 @@
       "turkey liver",
       "turkey heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "goat's milk",
       "herring oil"
@@ -92269,7 +92400,7 @@
       "chicken liver",
       "chicken gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "chicken egg",
       "raw goat's milk",
@@ -92311,7 +92442,7 @@
       "duck liver",
       "duck gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "duck egg",
       "raw goat's milk",
@@ -92355,7 +92486,7 @@
       "rabbit kidney",
       "rabbit trachea"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "raw goat's milk",
       "herring oil"
@@ -92396,7 +92527,7 @@
       "turkey liver",
       "turkey gizzard"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "raw goat's milk",
       "turkey egg",
@@ -92439,7 +92570,7 @@
     "questionable": [
       "rice"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Chicken Meal",
@@ -92601,7 +92732,7 @@
       "deboned chicken",
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -92678,7 +92809,7 @@
       "herring meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "salmon meal",
@@ -92763,8 +92894,8 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Chicken Meal",
@@ -92843,8 +92974,8 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Chicken Meal",
@@ -92923,7 +93054,7 @@
       "menhaden fish meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "menhaden fish meal",
@@ -93006,7 +93137,7 @@
       "deboned chicken",
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon oil"
     ],
@@ -93082,7 +93213,7 @@
       "chicken meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "salmon oil"
@@ -93366,7 +93497,7 @@
       "rice",
       "ground brown rice"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Chicken Meal",
@@ -94163,7 +94294,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Liver",
@@ -94289,7 +94420,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -94478,7 +94609,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Chicken Liver",
@@ -94884,7 +95015,7 @@
       "beef",
       "chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef"
     ],
@@ -94937,8 +95068,8 @@
     "quality": [
       "chicken"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Water Sufficient For Processing",
@@ -94988,7 +95119,7 @@
       "chicken",
       "salmon"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon"
     ],
@@ -95041,8 +95172,8 @@
     "quality": [
       "turkey"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Water Sufficient For Processing",
@@ -95094,8 +95225,8 @@
       "pork meal",
       "duck"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Deboned Turkey",
       "Turkey Meal",
@@ -95814,8 +95945,8 @@
       "turkey meal",
       "chicken meal"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Turkey Meal",
@@ -95889,7 +96020,7 @@
       "menhaden fish meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "menhaden fish meal",
@@ -95974,7 +96105,7 @@
       "chicken meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "salmon oil"
@@ -96054,7 +96185,7 @@
       "chicken meal",
       "herring meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "salmon oil"
@@ -96281,7 +96412,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Liver",
@@ -96424,7 +96555,7 @@
     "questionable": [
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Turkey",
       "Pork Liver",
@@ -96558,8 +96689,8 @@
       "chicken meal",
       "turkey liver"
     ],
-    "questionable": NaN,
-    "allergens": NaN,
+    "questionable": "",
+    "allergens": "",
     "ingredients": [
       "Deboned Chicken",
       "Turkey Meal",
@@ -96637,7 +96768,7 @@
       "herring meal",
       "turkey liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "herring meal",
       "salmon oil"
@@ -97241,7 +97372,7 @@
       "tapioca starch",
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -97346,7 +97477,7 @@
       "tapioca starch",
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken",
       "Chicken Broth",
@@ -97398,7 +97529,7 @@
       "tapioca starch",
       "guar gum"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Duck",
       "Chicken",
@@ -97563,7 +97694,7 @@
     "questionable": [
       "brewers rice"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Meal",
       "Brewers Rice",
@@ -98324,7 +98455,7 @@
     "DM_C": 0.4431818181818181,
     "DM_fiber": 0.06818181818181816,
     "DM_ME": 384.20454545454544,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "poultry by-product meal",
       "ground yellow corn",
@@ -98388,7 +98519,7 @@
     "DM_C": 0.3333333333333332,
     "DM_fiber": 0.04444444444444443,
     "DM_ME": 398.88888888888886,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "poultry by-product meal",
       "corn gluten meal",
@@ -98452,7 +98583,7 @@
     "DM_C": 0.38775510204081637,
     "DM_fiber": 0.0453514739229025,
     "DM_ME": 393.0226757369615,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "poultry by-product meal",
       "ground yellow corn",
@@ -98909,7 +99040,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Broth",
       "Chicken",
@@ -98961,7 +99092,7 @@
       "chicken meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon",
       "menhaden fish meal"
@@ -99029,7 +99160,7 @@
       "chicken meal",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "white fish",
       "salmon meal"
@@ -99097,7 +99228,7 @@
       "menhaden fish meal",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish meal",
       "salmon meal"
@@ -99166,7 +99297,7 @@
       "salmon meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "menhaden fish meal"
@@ -99236,7 +99367,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Broth",
       "Chicken",
@@ -99291,7 +99422,7 @@
       "menhaden fish meal",
       "salmon meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "menhaden fish meal",
       "salmon meal"
@@ -99360,7 +99491,7 @@
       "salmon meal",
       "menhaden fish meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "salmon meal",
       "menhaden fish meal"
@@ -99432,7 +99563,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Turkey Broth",
       "Liver",
@@ -99489,7 +99620,7 @@
     "questionable": [
       "tapioca starch"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Turkey Broth",
       "Liver",
@@ -99541,7 +99672,7 @@
     "quality": [
       "lamb meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb meal",
       "fish meal"
@@ -99611,7 +99742,7 @@
     "quality": [
       "chicken meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fish meal"
     ],
@@ -99764,7 +99895,7 @@
       "chicken meal",
       "organic chicken"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fish oil"
     ],
@@ -99823,7 +99954,7 @@
       "chicken meal",
       "turkey meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fish oil"
     ],
@@ -99897,7 +100028,7 @@
     "questionable": [
       "brown rice"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Chicken Meal",
       "Brown Rice",
@@ -100210,7 +100341,7 @@
       "turkey meal",
       "crab meal"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "fish meal",
       "eggs",
@@ -100380,7 +100511,7 @@
     "questionable": [
       "brown rice"
     ],
-    "allergens": NaN,
+    "allergens": "",
     "ingredients": [
       "Organic Chicken",
       "Brown Rice",
@@ -100418,7 +100549,7 @@
     "DM_C": 0.5444444444444444,
     "DM_fiber": 0.05555555555555556,
     "DM_ME": 386.66666666666663,
-    "quality": NaN,
+    "quality": "",
     "questionable": [
       "brown rice",
       "corn",
@@ -100595,7 +100726,7 @@
       "beef liver",
       "beef lung"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "beef heart",
@@ -100655,7 +100786,7 @@
       "goat lung",
       "goat kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whole white trevally",
       "whole mackerel",
@@ -100713,7 +100844,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "new zealand green mussel"
     ],
@@ -100761,7 +100892,7 @@
       "turkey liver",
       "turkey heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whole eggs",
       "new zealand green mussel"
@@ -100818,7 +100949,7 @@
       "lamb kidney",
       "lamb lung"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "lamb heart",
@@ -100874,7 +101005,7 @@
       "lamb lung",
       "lamb kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel",
       "lamb",
@@ -100939,7 +101070,7 @@
       "venison kidney",
       "lamb kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "lamb",
@@ -101012,7 +101143,7 @@
       "venison liver",
       "venison kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "new zealand green mussel"
     ],
@@ -101059,7 +101190,7 @@
       "beef tripe",
       "beef liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "beef lung",
@@ -101115,7 +101246,7 @@
       "goat lung",
       "goat kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb broth",
       "whole white trevally",
@@ -101173,7 +101304,7 @@
       "chicken liver",
       "chicken heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "new zealand green mussel"
     ],
@@ -101219,7 +101350,7 @@
       "turkey liver",
       "turkey heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "whole egg",
       "new zealand green mussel",
@@ -101270,7 +101401,7 @@
       "hoki",
       "hoki liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "hoki",
       "hoki liver",
@@ -101316,7 +101447,7 @@
       "lamb tripe",
       "lamb heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "lamb lung",
@@ -101370,7 +101501,7 @@
       "lamb kidney",
       "lamb liver"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel",
       "lamb",
@@ -101420,7 +101551,7 @@
     "quality": [
       "mackerel"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "mackerel",
       "new zealand green mussel"
@@ -101469,7 +101600,7 @@
       "lamb",
       "venison kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "beef",
       "beef broth",
@@ -101541,7 +101672,7 @@
       "lamb tripe",
       "lamb heart"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "lamb",
       "lamb lung",
@@ -101596,7 +101727,7 @@
       "venison heart",
       "venison kidney"
     ],
-    "questionable": NaN,
+    "questionable": "",
     "allergens": [
       "new zealand green mussel"
     ],
