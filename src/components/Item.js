@@ -4,7 +4,7 @@ import styled from 'styled-components/native';
 import { images } from '../utils/storage'
 
 const ItemContainer = styled.TouchableOpacity`
-  height: 120;
+  height: 120px;
   width: 95%;
   padding: 10px;
   flex-direction: row;

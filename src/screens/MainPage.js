@@ -6,21 +6,20 @@ import AppLoading from 'expo-app-loading';
 import Weather from '../components/Weather';
 import { images } from '../utils/storage';
 import CateButton from '../components/CateButton';
-import { View, Text, FlatList, Image } from 'react-native';
-import data from '../../수입사료.json'
+import { FlatList } from 'react-native';
 import { _koreaninitialize } from '../utils/common';
 import Item from '../components/Item';
 
 const Container = styled.View`
   background-color: #fff;
-  padding-top: 10;
-  padding-bottom: 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
   align-items: center;
 `;
 
 const MainImage = styled.Image`
   width: 95%;
-  height: 280;
+  height: 280px;
   border-radius: 10px;
   margin-top: 20px;
   align-self: center;
