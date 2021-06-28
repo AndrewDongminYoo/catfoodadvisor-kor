@@ -6,9 +6,16 @@ import AppLoading from 'expo-app-loading';
 import Weather from '../components/Weather';
 import { images } from '../utils/storage';
 import CateButton from '../components/CateButton';
-import { FlatList } from 'react-native';
+import { FlatList, Platform } from 'react-native';
 import { _koreaninitialize } from '../utils/common';
 import Item from '../components/Item';
+import {
+  setTestDeviceIDAsync,
+  AdMobBanner,
+  AdMobInterstitial,
+  PublisherBanner,
+  AdMobRewarded
+} from 'expo-ads-admob';
 
 const Container = styled.View`
   background-color: #fff;
@@ -36,6 +43,8 @@ export default function MainPage({navigation, route}) {
   const [isReady, setIsReady] = useState(false);
   const [brands, setBrands] = useState([])
   const [brandFilter, setBrandFilter] = useState([])
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [adUnitId, setAdUnitId] = useState("ca-app-pub-4457293335388562/7025063764")
 
   useEffect(()=>{
     firebase_db.ref('/data')
@@ -44,15 +53,21 @@ export default function MainPage({navigation, route}) {
         let data = snapshot.val();
         setBrands(data)
         setBrandFilter(data)
-        console.log(data)
+        console.log(data.length)
+        setIsReady(true)
       })
+    if (Platform.OS === 'ios') {
+      setAdUnitId("ca-app-pub-4457293335388562/7614368509")
+    }
   }, [])
+
 
   const _filterBrand = target => {
     console.log(target)
     setBrandFilter(brands.filter((brand)=>{
       return _koreaninitialize(brand['브랜드']) == target
     }))
+    console.log(brandFilter)
   }
 
   const _handleItemClick = item => {
@@ -61,7 +76,6 @@ export default function MainPage({navigation, route}) {
 
   return isReady ? (
     <Container>
-
       <StatusBar style="black" />
       <Weather/>
       <MainImage source={{uri: images.main}}/>
@@ -69,21 +83,18 @@ export default function MainPage({navigation, route}) {
         _filterBrand(target)
       }}/>
 
-      <FlatListContainer>
+        <FlatListContainer>
         <FlatList
-          keyExtractor={item => item['name']}
           data={brandFilter}
-          windowSize={6}
+          keyExtractor={item => String(item.id)}
+          windowSize={2}
+          initialNumToRender={3}
           renderItem={({ item }) => (
             <Item item={item} onPress={_handleItemClick}/>
           )}
         />
+
       </FlatListContainer>
     </Container>
-  ) : (
-    <AppLoading
-      onFinish={setIsReady(true)}
-      onError={console.warn}
-    />
-  )
+  ) : null;
 }
