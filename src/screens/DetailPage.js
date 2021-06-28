@@ -15,7 +15,7 @@ const Container = styled.ScrollView`
 const StyledImage = styled.Image`
     height: 250px;
     width: 250px;
-    margin-horizontal: auto;
+    align-self: center;
     margin-top: 40px;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -30,7 +30,7 @@ const TextContainer = styled.View`
 `;
 
 const Title = styled.Text`
-    font-size: 24;
+    font-size: 24px;
     font-weight: 900;
     color: #000;
     padding: 20px;
@@ -40,7 +40,7 @@ const Title = styled.Text`
 `;
 
 const SubTitle = styled.Text`
-    font-size: 16;
+    font-size: 16px;
     font-weight: 900;
     color: #000;
     justify-content: center;
@@ -50,7 +50,10 @@ const SubTitle = styled.Text`
 
 const Description = styled.Text`
     margin-top: 10px;
+    include-font-padding: true;
     color: #000;
+    line-height: 18px;
+    font-size: 14px;
 `;
 
 const NutrientbarContainer = styled.View`
@@ -64,10 +67,19 @@ const NutrientbarContainer = styled.View`
 const Nutrientbar = styled.View`
     height: 30px;
     width: ${({ windowWidth, percent }) =>
-        (windowWidth - 60) *percent}px;
-    item-align: center;
+        (windowWidth - 40) *percent}px;
+    align-items: center;
     border-width: 1.5px;
     border-color: #8B4513;
+`;
+
+const Nutrience = styled.Text`
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    text-align-vertical: center;
+    color: #fff;
+    line-height: 30px;
 `;
 
 export default function DetailPage({navigation, route: { params }}) {
@@ -106,7 +118,7 @@ export default function DetailPage({navigation, route: { params }}) {
         "Yucca": false,
         "meal-free": true,
         "Grain-free": false,
-        "Oil/Fat": "Poultry fat",
+        "Oil-Fat": "Poultry fat",
         "원료": 2,
         "사용된원료": [
           "dehydrated Chicken",
@@ -165,14 +177,19 @@ export default function DetailPage({navigation, route: { params }}) {
         title: item['이름']
         })
 
+    const DescriptionText = `제조사 ${item['Manufacturer']}의 브랜드 ${item['브랜드']} ${item['이름']} 제품은 ${item['Process']} 공법으로 생산되었으며, 영양소는 단백질: ${item['Protein'].toFixed(1)}%, 지방: ${item['Fat'].toFixed(1)}%, 탄수화물: ${item['Carbonate'].toFixed(1)}%, 조섬유: ${item['조섬유'].toFixed(1)}%, 조회분: ${item['조회분'].toFixed(1)}%, 수분: ${item['수분'].toFixed(1)}%, 칼슘: ${item['칼슘'].toFixed(2)}%, 인: ${item['인'].toFixed(2)}% 으로 구성되어 있고, 열량은 ${item['열량'].toFixed(1)}kcal/kg 이고, PFC비율은 ${Math.round(item['P']*100).toFixed(1)}:${Math.round(item['F']*100).toFixed(1)}:${Math.round(item['C']*100).toFixed(1)} 이예요. 이 사료는 ${item['수입사']}에서 샘플을 받아보실 수 있어요.`
+
     return isReady ? (
         <Container>
             <StyledImage source={{uri:images.sample}}/>
             <TextContainer>
                 <Title>{item['이름']}</Title>
                 <Description>{item['브랜드']} | {item['Manufacturer']}</Description>
-                <Description>원료: {item['원료']}등급</Description>
-                <Description>성분: {item['성분']}등급</Description>
+                <Description>장 건강에 좋은 유익균? {item["Probiotics"] ? "O" : "X"}</Description>
+                <Description>요로 건강에 좋은 크랜베리? {item["Cranberry"] ? "O" : "X"}</Description>
+                <Description>변취를 줄여주는 유카시디게라 {item["Yucca"] ? "O" : "X"}</Description>
+                <Description>그레인프리인가요? {item["Grain-free"] ? "O" : "X"}</Description>
+                <Description>어떤 오일을 사용했나요? {item["Oil-Fat"]}</Description>
                 <Description>평균가격: {item['100g당가격'].toFixed(1)}원/100g</Description>
             </TextContainer>
             <TextContainer>
@@ -180,15 +197,13 @@ export default function DetailPage({navigation, route: { params }}) {
                 <Description>{item['사용된원료'].join(', ')}</Description>
             </TextContainer>
             <NutrientbarContainer windowWidth={windowWidth}>
-                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#FFA07A"}} percent={item['P']}><Text style={{textAlign:'center', fontWeight:"900", lineHeight: 30, color:"#fff"}}>P: 단백질이지!!</Text></Nutrientbar>
-                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#B22222"}} percent={item['F']}><Text style={{textAlign:'center', fontWeight:"900", lineHeight: 30, color:"#fff"}}>F: 난 지방이다!</Text></Nutrientbar>
-                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#6A5ACD"}} percent={item['C']}><Text style={{textAlign:'center', fontWeight:"900", lineHeight: 30, color:"#fff"}}>C: 탄수화물헤헤</Text></Nutrientbar>
+                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#FFA07A"}} percent={item['P']}><Nutrience >P: 단백질이지!!</Nutrience></Nutrientbar>
+                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#B22222"}} percent={item['F']}><Nutrience >F: 난 지방이다!</Nutrience></Nutrientbar>
+                <Nutrientbar windowWidth={windowWidth} style={{backgroundColor:"#6A5ACD"}} percent={item['C']}><Nutrience >C: 탄수화물헤헤</Nutrience></Nutrientbar>
             </NutrientbarContainer>
             <TextContainer>
                 <Description>
-                제조사 {item['Manufacturer']}의 {item['브랜드']} 브랜드 {item['이름']} 제품은 {item['Process']} 공법으로 생산되었으며, 영양소는 단백질: {item['Protein'].toFixed(1)}%, 지방: {item['Fat'].toFixed(1)}%, 탄수화물: {item['Carbonate'].toFixed(1)}%, 조섬유: {item['조섬유'].toFixed(1)}%, 조회분: {item['조회분'].toFixed(1)}%, 수분: {item['수분'].toFixed(1)}%, 칼슘: {item['칼슘'].toFixed(2)}%, 인: {item['인'].toFixed(2)}% 으로 구성되어 있고,
-                열량은 {item['열량'].toFixed(1)}kcal/kg 이고, PFC비율은 {Math.round(item['P']*100).toFixed(1)}:{Math.round(item['F']*100).toFixed(1)}:{Math.round(item['C']*100).toFixed(1)} 이예요.
-                이 사료는 {item['수입사']}에서 샘플을 받아보실 수 있어요.
+                    {DescriptionText}
                 </Description>
             </TextContainer>
         </Container>

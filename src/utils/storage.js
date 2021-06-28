@@ -9,10 +9,4 @@ const images = {
   sample: `${prefix}sample.png?alt=media`,
 };
 
-const fonts = {
-  regular: `${prefix}NanumMyeongjo-Regular.ttf?alt=media`,
-  bold: `${prefix}NanumMyeongjo-Bold.ttf?alt=media`,
-  extraBold: `${prefix}NanumMyeongjo-ExtraBold.ttf?alt=media`,
-};
-
-export { images, fonts }
+export { images }

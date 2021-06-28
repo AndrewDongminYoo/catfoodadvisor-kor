@@ -8,7 +8,7 @@ const ItemContainer = styled.TouchableOpacity`
   width: 95%;
   padding: 10px;
   flex-direction: row;
-  justify-contents: flex-start;
+  justify-content: flex-start;
   display: flex;
 `;
 
@@ -36,19 +36,18 @@ const ItemDescription = styled.Text`
   color: ${({ theme }) => theme.listTime};
 `;
 
-const Item = React.memo(
-    ({item: { id, 이름, 브랜드, 사용된원료}, onPress}) => {
+const Item = ({item: { id, 이름, 사용된원료}, onPress}) => {
 
-    return (
-      <ItemContainer onPress={() => onPress({id})}>
-        <ImageFrame resizeMode="cover" source={{uri:images.sample}}/>
-        <ItemTextContainer>
-          <ItemTitle numberOfLines={1}>{ 이름 }</ItemTitle>
-          <ItemDescription numberOfLines={4}>{ 사용된원료.join(', ') }</ItemDescription>
-        </ItemTextContainer>
-      </ItemContainer>
-    )
-  }
-)
+  return (
+    <ItemContainer onPress={() => onPress({id})}>
+      <ImageFrame resizeMode="cover" source={{uri:images.sample}}/>
+      <ItemTextContainer>
+        <ItemTitle numberOfLines={1}>{ 이름 }</ItemTitle>
+        <ItemDescription numberOfLines={4}>{ 사용된원료.join(', ') }</ItemDescription>
+      </ItemTextContainer>
+    </ItemContainer>
+  )
+}
 
-export default Item;
+
+export default React.memo(Item);

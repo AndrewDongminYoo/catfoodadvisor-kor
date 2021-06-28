@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import AppLoading from 'expo-app-loading';
 import { StatusBar } from 'expo-status-bar';
-import * as Font from 'expo-font';
+import { useFonts, NanumMyeongjo_400Regular, NanumMyeongjo_700Bold } from '@expo-google-fonts/dev';
 import { Asset } from 'expo-asset';
 import { theme } from './theme';
-import { Image } from 'react-native';
+import { Image, LogBox } from 'react-native';
 import Navigation from './navigations';
-import { images, fonts } from './utils/storage';
+import { images } from './utils/storage';
 import { ProgressProvider, UserProvider } from './contexts';
 import { ThemeProvider } from 'styled-components/native';
 import { NativeBaseProvider } from 'native-base';
@@ -22,11 +22,10 @@ const cacheImages = images => {
   });
 };
 
-const cacheFonts = fonts => {
-  return fonts.map(font => Font.loadAsync(font));
-}
-
 export default function App() {
+  console.disableYellowBox = true;
+  LogBox.ignoreAllLogs(true);
+
 
   const [isReady, setIsReady] = useState(false);
   const _loadAssets = async () => {
@@ -34,11 +33,11 @@ export default function App() {
       require('../assets/splash.png'),
      ...Object.values(images)
     ])
-    const fontAssets = cacheFonts([
-      require('../assets/fonts/NanumMyeongjo-Regular.ttf'),
-      ...Object.values(fonts)
-    ])
-    await Promise.all([...imageAssets, ...fontAssets]);
+    const [fontLoaded] = useFonts({
+      NanumMyeongjo_400Regular,
+      NanumMyeongjo_700Bold,
+    })
+    await Promise.all([...imageAssets, ...fontLoaded]);
   }
   return isReady ? (
     <ThemeProvider theme={theme}>

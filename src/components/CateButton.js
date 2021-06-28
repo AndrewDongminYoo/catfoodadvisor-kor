@@ -1,25 +1,15 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { ButtonGroup } from "react-native-elements";
-import { DB } from '../utils/firebase'
+import { useFonts } from "@expo-google-fonts/dev";
+import AppLoading from "expo-app-loading";
 
 export default function CateButton ({propsFunction}) {
 
-  const [brandStarts, setBrandStarts] = useState('All')
-  const [selectedIndex, setSelectedIndex] = useState(13);
-
-  useEffect(()=>{
-    const unsubscribe = DB.collection('brands')
-      .orderBy('brand', 'desc')
-      .onSnapshot(snapshot => {
-        const list = [];
-        snapshot.forEach(doc => {
-          list.push(doc.data());
-        });
-        setBrandStarts(list);
-      });
-    return unsubscribe();
-  }, []);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [fontsLoaded] = useFonts({
+    'BlackHanSans': require('../../assets/fonts/BlackHanSans-Regular.ttf')
+  })
 
   const _handleButtonPRess = selectedIndex => {
     const toAlphabet = {
@@ -30,8 +20,13 @@ export default function CateButton ({propsFunction}) {
     return propsFunction(toAlphabet[selectedIndex])
   }
 
-  return (
+  useEffect(()=>{
+    setSelectedIndex('ㄱ')
+  }, [])
+
+  return fontsLoaded ? (
     <ButtonGroup
+      textStyle={{ fontFamily: 'BlackHanSans' }}
       buttonStyle={{ width: 20, alignSelf:"center" }}
       buttonContainerStyle={{}}
       buttons={[
@@ -43,5 +38,7 @@ export default function CateButton ({propsFunction}) {
       onPress={selectedIndex => _handleButtonPRess(selectedIndex)}
       selectedButtonStyle={{ backgroundColor: "#BC8F8F" }}
     />
-  );
+  ) : (
+    <AppLoading/>
+  )
 }
