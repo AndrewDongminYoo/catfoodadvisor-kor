@@ -3,19 +3,10 @@ import styled from 'styled-components/native'
 import { StatusBar } from 'expo-status-bar';
 import { firebase_db } from '../utils/firebase';
 import AppLoading from 'expo-app-loading';
-import Weather from '../components/Weather';
 import { images } from '../utils/storage';
-import CateButton from '../components/CateButton';
-import { FlatList, Platform } from 'react-native';
+import { FlatList } from 'react-native';
 import { _koreaninitialize } from '../utils/common';
-import Item from '../components/Item';
-import {
-  setTestDeviceIDAsync,
-  AdMobBanner,
-  AdMobInterstitial,
-  PublisherBanner,
-  AdMobRewarded
-} from 'expo-ads-admob';
+import { Item, Weather, CateButton, BannerAd } from '../components';
 
 const Container = styled.View`
   background-color: #fff;
@@ -35,7 +26,7 @@ const MainImage = styled.Image`
 const FlatListContainer = styled.View`
   height: 440px;
   width: 100%;
-  align-items: center;
+  align-items: stretch;
 `;
 
 export default function MainPage({navigation, route}) {
@@ -43,8 +34,6 @@ export default function MainPage({navigation, route}) {
   const [isReady, setIsReady] = useState(false);
   const [brands, setBrands] = useState([])
   const [brandFilter, setBrandFilter] = useState([])
-  const [isRefreshing, setIsRefreshing] = useState(false);
-  const [adUnitId, setAdUnitId] = useState("ca-app-pub-4457293335388562/7025063764")
 
   useEffect(()=>{
     firebase_db.ref('/data')
@@ -56,9 +45,6 @@ export default function MainPage({navigation, route}) {
         console.log(data.length)
         setIsReady(true)
       })
-    if (Platform.OS === 'ios') {
-      setAdUnitId("ca-app-pub-4457293335388562/7614368509")
-    }
   }, [])
 
 
@@ -67,7 +53,7 @@ export default function MainPage({navigation, route}) {
     setBrandFilter(brands.filter((brand)=>{
       return _koreaninitialize(brand['브랜드']) == target
     }))
-    console.log(brandFilter)
+    console.log(brandFilter.length)
   }
 
   const _handleItemClick = item => {
@@ -82,19 +68,19 @@ export default function MainPage({navigation, route}) {
       <CateButton propsFunction={target => {
         _filterBrand(target)
       }}/>
-
-        <FlatListContainer>
+      <FlatListContainer>
         <FlatList
           data={brandFilter}
           keyExtractor={item => String(item.id)}
           windowSize={2}
           initialNumToRender={3}
+          ListHeaderComponent={<BannerAd/>}
+          ListEmptyComponent={<BannerAd isEmpty={true}/>}
           renderItem={({ item }) => (
             <Item item={item} onPress={_handleItemClick}/>
           )}
         />
-
       </FlatListContainer>
     </Container>
-  ) : null;
+  ) : <AppLoading />
 }

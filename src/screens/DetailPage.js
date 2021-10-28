@@ -1,11 +1,13 @@
 import React from 'react';
-import { useLayoutEffect, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import styled from 'styled-components/native';
 import { images } from '../utils/storage'
 import { firebase_db } from '../utils/firebase';
 import AppLoading from 'expo-app-loading';
 import { Dimensions } from 'react-native';
-import { Text } from 'react-native'
+import { Button } from 'react-native-elements';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import { Share } from 'react-native';
 
 
 const Container = styled.ScrollView`
@@ -24,7 +26,8 @@ const StyledImage = styled.Image`
 
 const TextContainer = styled.View`
     background-color: #fff;
-    margin-horizontal: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
     margin-bottom: 10px;
     padding: 20px;
 `;
@@ -50,7 +53,6 @@ const SubTitle = styled.Text`
 
 const Description = styled.Text`
     margin-top: 10px;
-    include-font-padding: true;
     color: #000;
     line-height: 18px;
     font-size: 14px;
@@ -161,8 +163,8 @@ export default function DetailPage({navigation, route: { params }}) {
       })
 
     useEffect(() => {
-        console.log(params)
-        const { id } = params;
+        console.log(params.id.id)
+        const { id } = params.id;
         firebase_db
             .ref('/data/'+String(id))
             .once('value')
@@ -171,13 +173,22 @@ export default function DetailPage({navigation, route: { params }}) {
                 setItem(item)
                 setIsReady(true)
             })
+        navigation.setOptions({
+            title: item['이름']
+        })
     }, [])
 
-    navigation.setOptions({
-        title: item['이름']
-        })
+    const DescriptionText = `제조사 ${item['Manufacturer'].replace('.','_')}의 브랜드 ${item['브랜드']} ${item['이름']} 제품은 ${item['Process']} 공법으로 생산되었으며, 영양소는 단백질: ${item['Protein'].toFixed(1)}%, 지방: ${item['Fat'].toFixed(1)}%, 탄수화물: ${item['Carbonate'].toFixed(1)}%, 조섬유: ${item['조섬유'].toFixed(1)}%, 조회분: ${item['조회분'].toFixed(1)}%, 수분: ${item['수분'].toFixed(1)}%, 칼슘: ${item['칼슘'].toFixed(2)}%, 인: ${item['인'].toFixed(2)}% 으로 구성되어 있고, 열량은 ${item['열량'].toFixed(1)}kcal/kg 이고, PFC비율은 ${Math.round(item['P']*100).toFixed(1)}:${Math.round(item['F']*100).toFixed(1)}:${Math.round(item['C']*100).toFixed(1)} 이예요. 이 사료는 ${item['수입사']}에서 샘플을 받아보실 수 있어요.`
 
-    const DescriptionText = `제조사 ${item['Manufacturer']}의 브랜드 ${item['브랜드']} ${item['이름']} 제품은 ${item['Process']} 공법으로 생산되었으며, 영양소는 단백질: ${item['Protein'].toFixed(1)}%, 지방: ${item['Fat'].toFixed(1)}%, 탄수화물: ${item['Carbonate'].toFixed(1)}%, 조섬유: ${item['조섬유'].toFixed(1)}%, 조회분: ${item['조회분'].toFixed(1)}%, 수분: ${item['수분'].toFixed(1)}%, 칼슘: ${item['칼슘'].toFixed(2)}%, 인: ${item['인'].toFixed(2)}% 으로 구성되어 있고, 열량은 ${item['열량'].toFixed(1)}kcal/kg 이고, PFC비율은 ${Math.round(item['P']*100).toFixed(1)}:${Math.round(item['F']*100).toFixed(1)}:${Math.round(item['C']*100).toFixed(1)} 이예요. 이 사료는 ${item['수입사']}에서 샘플을 받아보실 수 있어요.`
+    const _share = () => Share.share({
+
+        message: `${DescriptionText}
+
+    출처: "꼬리와 돈민찌의 고양이사료 이야기"
+    https://catminzzi.tistory.com/search/${item['브랜드']}`,
+    url: `https://catminzzi.tistory.com/search/${item['브랜드']}`,
+    title: item['이름']
+    })
 
     return isReady ? (
         <Container>
@@ -205,6 +216,20 @@ export default function DetailPage({navigation, route: { params }}) {
                 <Description>
                     {DescriptionText}
                 </Description>
+                <Button
+                    buttonStyle={{
+                        marginVertical: 20,
+                        backgroundColor: "#BC8F8F"
+                    }}
+                    title=" Share "
+                    onPress={()=> _share()}
+                    icon={
+                        <Icon
+                            name="share-alt"
+                            size={20}
+                            color="#FFF8DC"
+                        />}
+                />
             </TextContainer>
         </Container>
 

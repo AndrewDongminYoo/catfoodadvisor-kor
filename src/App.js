@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import AppLoading from 'expo-app-loading';
 import { StatusBar } from 'expo-status-bar';
-import { useFonts, NanumMyeongjo_400Regular, NanumMyeongjo_700Bold } from '@expo-google-fonts/dev';
 import { Asset } from 'expo-asset';
 import { theme } from './theme';
 import { Image, LogBox } from 'react-native';
@@ -24,8 +23,6 @@ const cacheImages = images => {
 
 export default function App() {
   console.disableYellowBox = true;
-  LogBox.ignoreAllLogs(true);
-
 
   const [isReady, setIsReady] = useState(false);
   const _loadAssets = async () => {
@@ -33,12 +30,9 @@ export default function App() {
       require('../assets/splash.png'),
      ...Object.values(images)
     ])
-    const [fontLoaded] = useFonts({
-      NanumMyeongjo_400Regular,
-      NanumMyeongjo_700Bold,
-    })
-    await Promise.all([...imageAssets, ...fontLoaded]);
+    await Promise.all([...imageAssets]);
   }
+
   return isReady ? (
     <ThemeProvider theme={theme}>
       <UserProvider>

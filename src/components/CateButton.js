@@ -20,10 +20,6 @@ export default function CateButton ({propsFunction}) {
     return propsFunction(toAlphabet[selectedIndex])
   }
 
-  useEffect(()=>{
-    setSelectedIndex('ㄱ')
-  }, [])
-
   return fontsLoaded ? (
     <ButtonGroup
       textStyle={{ fontFamily: 'BlackHanSans' }}
