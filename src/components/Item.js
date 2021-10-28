@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Platform from 'react-native';
 import styled from 'styled-components/native';
 import { images } from '../utils/storage'
 import Constants from 'expo-constants'
@@ -44,10 +45,10 @@ const ItemDescription = styled.Text`
   color: ${({ theme }) => theme.listTime};
 `;
 
-const Item = ({item: { id, 이름, 사용된원료}, onPress}) => {
+const Item = ({ item: { id, 이름, 사용된원료 }, onPress }) => {
 
 
-  useEffect(()=>{
+  useEffect(() => {
     const productionID = Platform.select({
       ios: 'ca-app-pub-4457293335388562/8540437369',
       android: 'ca-app-pub-4457293335388562/8442566140',
@@ -59,20 +60,20 @@ const Item = ({item: { id, 이름, 사용된원료}, onPress}) => {
     AdMobInterstitial.addEventListener("interstitialDidFailToLoad", () => console.log("MainAd FailToLoad"));
     AdMobInterstitial.addEventListener("interstitialDidOpen", () => console.log("MainAd Open"));
     AdMobInterstitial.addEventListener("interstitialDidClose", () => console.log("MainAd Close"));
-  },[])
+  }, [])
 
-  const goDetail = async id =>{
-    await AdMobInterstitial.requestAdAsync({ servePersonalizedAds: true});
+  const goDetail = async id => {
+    await AdMobInterstitial.requestAdAsync({ servePersonalizedAds: true });
     await AdMobInterstitial.showAdAsync();
-    await onPress({id})
+    await onPress({ id })
   }
 
   return (
-    <ItemContainer onPress={() => goDetail({id})}>
-      <ImageFrame resizeMode="cover" source={{uri:images.sample}}/>
+    <ItemContainer onPress={() => goDetail({ id })}>
+      <ImageFrame resizeMode="cover" source={{ uri: images.sample }} />
       <ItemTextContainer>
-        <ItemTitle numberOfLines={1}>{ 이름 }</ItemTitle>
-        <ItemDescription numberOfLines={4}>{ 사용된원료.join(', ') }</ItemDescription>
+        <ItemTitle numberOfLines={1}>{이름}</ItemTitle>
+        <ItemDescription numberOfLines={4}>{사용된원료.join(', ')}</ItemDescription>
       </ItemTextContainer>
     </ItemContainer>
   )
